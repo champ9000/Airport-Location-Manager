@@ -21,10 +21,8 @@
             <div class="col-md-4">
                 <form id="flightForm">
 
-                    <label for="originInput">Origin:
-
-                    </label>
-                    <div id="originText">Choose an airport from the map</div>
+                    <label for="originInput">Origin:</label>
+                    <div id="originText" class="flight-input">Choose an airport from the map</div>
                     <input type="text" id="originInput" list="airportList" class="form-control flight-input display-none" />
 
                     <label for="destination">Destination:</label>
@@ -33,10 +31,10 @@
 
                     <label for="departDate">Departure date:</label>
                     <input type="date" id="departDate" class="form-control flight-input" />
-
+<!--
                     <label for="returnDate">Return date:</label>
                     <input type="date" id="returnDate" class="form-control flight-input" />
-
+-->
                     <button id="submitFlightForm" class="btn btn-primary">Get Flights</button>
                 </form>
             </div>
@@ -53,13 +51,15 @@
 
         // Global origin variable
         var origin = "";
+        // Keep track of the last info window so only one marker is open at a time
+        var lastInfoWindow = null;
 
         function getLocation() {
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(function(position) {
                     var pos = {};
-                    pos.lat = position.coords.latitude,
-                        pos.lng = position.coords.longitude
+                    pos.lat = position.coords.latitude;
+                    pos.lng = position.coords.longitude;
                     initAutocomplete(pos);
                 });
             }
@@ -140,12 +140,40 @@
                         // Bring marker to center
                         map.panTo(center);
 
-                        // Bring up an info window
-                        var data = '<button class="btn btn-primary" id="makeOriginButton" onclick="parseOrigin()">Flying from here</button>';
-                        var infowindow = new google.maps.InfoWindow({
-                            content: data
+                        // Check if the airport is in the airport list
+                        var exists = false;
+                        $.getJSON("js/airportInfo.json", function(data) {})
+                        .done(function(data) {
+                            $(data.collection1).each(function(idx, airport) {
+                                if (airport.airportName.text == marker.title) {
+                                    exists = true;
+                                }
+                            });
+                        })
+                        .always(function(data) {
+                            if (exists) {
+                                if (lastInfoWindow != null) {
+                                    lastInfoWindow.close();
+                                }
+                                parseOrigin(marker);
+                            }
+                            else {
+                                var data = 'Sorry, you cannot fly from here!';
+
+                                // Close the last marker open
+                                if (lastInfoWindow != null) {
+                                    lastInfoWindow.close();
+                                }
+
+                                // Bring up an info window
+                                var infowindow = new google.maps.InfoWindow({
+                                    content: data
+                                });
+                                infowindow.open(map, marker);
+                                lastInfoWindow = infowindow;
+                            }
+
                         });
-                        infowindow.open(map, marker);
                     });
                 });
 
@@ -155,7 +183,7 @@
             // [END region_getplaces]
         }
 
-        function parseOrigin() {
+        function parseOrigin(marker) {
             if (!$("#originText").hasClass('display-none')) {
                 $("#originText").addClass('display-none');
             }
@@ -163,7 +191,16 @@
                 $("#originInput").removeClass('display-none');
                 $("#originInput").attr('disabled', true);
             }
-            console.log("done");
+
+            // Loop and find the code according to airport name
+            $("#airportList > option").each(function(idx, data) {
+                if ($(this).val() == marker.title) {
+                    origin = $(this).text();
+                    $("#originInput").val(marker.title);
+                    $("#originInput").text(origin);
+                    console.log(origin);
+                }
+            });
         }
 
         function getAirports() {
