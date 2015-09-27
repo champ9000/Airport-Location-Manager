@@ -12,17 +12,17 @@
 
 <body>
     <div class=container-fluid>
-        <div class="row-fluid">
-            <div class="col-md-8" style="height: 100vh;">
+        <div class="row-fluid map-height">
+            <div class="col-md-8 col-xs-12 map-height">
                 <input id="pac-input" class="controls" type="text" placeholder="Search Box">
                 <div id="map"></div>
                 <div id="Parameters"></div>
             </div>
-            <div class="col-md-4">
-                <form id="flightForm">
+            <div class="col-md-4 col-xs-12">
+                <div id="flight-form-container">
 
                     <label for="originInput">Origin:</label>
-                    <div id="originText" class="flight-input">Choose an airport from the map</div>
+                    <div id="originText" class="flight-input">Please choose an airport from the map</div>
                     <input type="text" id="originInput" list="airportList" class="form-control flight-input display-none" />
 
                     <label for="destination">Destination:</label>
@@ -36,9 +36,34 @@
                     <input type="date" id="returnDate" class="form-control flight-input" />
 -->
                     <button id="submitFlightForm" class="btn btn-primary">Get Flights</button>
-                </form>
+                </div>
             </div>
         </div>
+        <hr>
+        <div class="row-fluid">
+            <div class="col-md-12 col-xs-12">
+                <div class="col-md-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Current airport</h3>
+                        </div>
+                        <div id="currentAirport" class="panel-body">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Other airports</h3>
+                        </div>
+                        <div class="panel-body">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv9-kUFeQ3e3Oh_YL-7kyoIORu0RX35Ag&libraries=places&callback=getLocation" async defer></script>
     <script src="js/jquery-1.11.3.min.js"></script>
@@ -198,7 +223,6 @@
                     origin = $(this).text();
                     $("#originInput").val(marker.title);
                     $("#originInput").text(origin);
-                    console.log(origin);
                 }
             });
         }
@@ -213,9 +237,61 @@
             });
         }
 
+        // This can probably return an object with other airlines names
+        // then create a function called showOtherFlights with the parameter being the airline company
+        // nevermind
+        function showFlights(data) {
+            var tripOptions = data.trips.tripOption;
+            var duration, price, newPrice, stops, departureTime, arrivalTime, index, durationText, minutes, hours, html, newDepartureTime, stopWord;
+
+            for (var i = 0; i < tripOptions.length; i++) {
+
+                departureTime = "";
+                arrivalTime = "";
+
+                duration = tripOptions[i].slice[0].duration;
+                price = tripOptions[i].saleTotal;
+
+                // Conditional stop(s)
+                stopWord = (tripOptions[i].slice[0].segment.length == 1) ? "stop" : "stops";
+                // If there are no stops, display Nonstop
+                stops = (tripOptions[i].slice[0].segment.length - 1 > 0) ? tripOptions[i].slice[0].segment.length - 1 + " stops" : "Nonstop";
+
+                // Get the first departure time and the last arrival time
+                departureTime = tripOptions[i].slice[0].segment[0].leg[0].departureTime;
+
+                departureTime = departureTime.substr(11, 5);
+
+                index = tripOptions[i].slice[0].segment.length - 1;
+                arrivalTime = tripOptions[i].slice[0].segment[index].leg[0].arrivalTime;
+
+                arrivalTime = arrivalTime.substr(11, 5);
+
+                // Some parsing
+                newPrice = Math.ceil(price.substr(3));
+                hours = Math.floor(duration / 60);
+                minutes = duration % 60;
+
+                durationText = hours + "h " + minutes + "m";
+
+                html = '<div class="row-fluid flight-info-row">' +
+                            '<div class="col-xs-2">$' + newPrice + '</div>' +
+                            '<div class="col-xs-4">' + departureTime + " &mdash; " + arrivalTime + '</div>' +
+                            '<div class="col-xs-3">' + durationText + '</div>' +
+                            '<div class="col-xs-3">' + stops + '</div>' +
+                        '</div>';
+
+                // Remove old html and append new
+                $("#currentAirport").remove(".flight-info-row");
+                $("#currentAirport").append(html);
+            }
+        }
+
+        // Initialize the data list
         getAirports();
 
-        $('form').on('submit', function(e) {
+        // Form submit code
+        $('#submitFlightForm').on('click', function(e) {
             e.preventDefault();
             // Get inputs
 
@@ -234,7 +310,7 @@
             var data = {
                 "request": {
                     "slice": [{
-                        "origin": "LAX",
+                        "origin": origin,
                         "destination": destination,
                         "date": departDate
                     }],
@@ -259,7 +335,7 @@
                     data: JSON.stringify(data)
                 })
                 .done(function(data) {
-                    console.log(data);
+                    showFlights(data);
                 })
                 .fail(function(data) {
                     console.log(data);
