@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class=container-fluid>
+    <div class="container-fluid wrapper">
         <div class="row-fluid map-height">
             <h1 style="text-align:center;">Planana</h1>
             <hr>
@@ -69,7 +69,7 @@
             </div>
         </div>
     </footer>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv9-kUFeQ3e3Oh_YL-7kyoIORu0RX35Ag&libraries=places&callback=getLocation" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCfAbT-6TCAr82eKEJsOXL2ifU9l39KmQ&libraries=places&callback=getLocation" async defer></script>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
@@ -374,7 +374,7 @@
             // send an ajax call to flights api
             $.ajax({
                     method: "POST",
-                    url: "https://www.googleapis.com/qpxExpress/v1/trips/search?key=AIzaSyAv9-kUFeQ3e3Oh_YL-7kyoIORu0RX35Ag",
+                    url: "https://www.googleapis.com/qpxExpress/v1/trips/search?key=AIzaSyBCfAbT-6TCAr82eKEJsOXL2ifU9l39KmQ",
                     contentType: "application/json",
                     dataType: "json",
                     data: JSON.stringify(data)
