@@ -69,7 +69,7 @@
             </div>
         </div>
     </footer>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCfAbT-6TCAr82eKEJsOXL2ifU9l39KmQ&libraries=places&callback=getLocation" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOXMNGqbrclkes3tPZl7Iw9P4DuXXGKKA&libraries=places&callback=getLocation" async defer></script>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
@@ -374,7 +374,7 @@
             // send an ajax call to flights api
             $.ajax({
                     method: "POST",
-                    url: "https://www.googleapis.com/qpxExpress/v1/trips/search?key=AIzaSyBCfAbT-6TCAr82eKEJsOXL2ifU9l39KmQ",
+                    url: "https://www.googleapis.com/qpxExpress/v1/trips/search?key=AIzaSyAOXMNGqbrclkes3tPZl7Iw9P4DuXXGKKA",
                     contentType: "application/json",
                     dataType: "json",
                     data: JSON.stringify(data)
