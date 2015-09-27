@@ -13,6 +13,8 @@
 <body>
     <div class=container-fluid>
         <div class="row-fluid map-height">
+            <h1 style="text-align:center;">Planana</h1>
+            <hr>
             <div class="col-md-8 col-xs-12 map-height" id="map-container">
                 <input id="pac-input" class="controls" type="text" placeholder="Search Box">
                 <div id="map"></div>
@@ -20,6 +22,8 @@
             </div>
             <div class="col-md-4 col-xs-12">
                 <div id="flight-form-container">
+
+                    <div id="error-messages"></div>
 
                     <label for="originInput">Origin:</label>
                     <div id="originText" class="flight-input">Please choose an airport from the map</div>
@@ -44,29 +48,27 @@
         </div>
         <div class="row-fluid" id="flight-info-panels">
             <div class="col-md-12 col-xs-12">
-                <div class="col-md-4">
+                <div class="col-md-8 col-xs-12">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Current airport</h3>
+                            <h3 class="panel-title" id="current-airport-title">Current airport</h3>
                         </div>
                         <div id="currentAirport" class="panel-body">
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-8">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Other airports</h3>
-                        </div>
-                        <div class="panel-body">
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-
     </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4"><p class="text-muted">Made with &#9825; at HackGT Fall 2015</p></div>
+                <div class="col-xs-4"><p class="text-muted"><a href="https://github.com/champ9000/Airport-Location-Manager" target="_blank">Fork this on Github</a></p></div>
+                <div class="col-xs-4"><p class="text-muted">2015 <a href="http://impatientbanana.com/" target="_blank">Team Impatient Banana</a></p></div>
+            </div>
+        </div>
+    </footer>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv9-kUFeQ3e3Oh_YL-7kyoIORu0RX35Ag&libraries=places&callback=getLocation" async defer></script>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -195,28 +197,25 @@
                             });
                         })
                         .always(function(data) {
+                            // Close the last marker open
+                            if (lastInfoWindow != null) {
+                                lastInfoWindow.close();
+                            }
+
                             if (exists) {
-                                if (lastInfoWindow != null) {
-                                    lastInfoWindow.close();
-                                }
+                                var data = 'Origin airport set!';
                                 parseOrigin(marker);
                             }
                             else {
-                                var data = 'Sorry, you cannot fly from here!';
-
-                                // Close the last marker open
-                                if (lastInfoWindow != null) {
-                                    lastInfoWindow.close();
-                                }
-
-                                // Bring up an info window
-                                var infowindow = new google.maps.InfoWindow({
-                                    content: data
-                                });
-                                infowindow.open(map, marker);
-                                lastInfoWindow = infowindow;
+                                var data = 'Sorry, we don\'t support that airport yet!';
                             }
 
+                            // Bring up an info window
+                            var infowindow = new google.maps.InfoWindow({
+                                content: data
+                            });
+                            infowindow.open(map, marker);
+                            lastInfoWindow = infowindow;
                         });
                     });
                 });
@@ -256,12 +255,14 @@
             });
         }
 
-        // This can probably return an object with other airlines names
-        // then create a function called showOtherFlights with the parameter being the airline company
-        // nevermind
         function showFlights(data) {
             var tripOptions = data.trips.tripOption;
-            var duration, price, newPrice, stops, departureTime, arrivalTime, index, durationText, minutes, hours, html, newDepartureTime, stopWord, stopValue;
+            var duration, price, newPrice, stops, departureTime, arrivalTime, index, durationText, minutes, hours, html, newDepartureTime, stopWord, stopValue, airlineImage;
+
+            $("#current-airport-title").html($("#originInput").val() + " &#x2192; " + $("#destination").val());
+
+            // Remove previous flights
+            $("#currentAirport.flight-info-row").remove();
 
             for (var i = 0; i < tripOptions.length; i++) {
 
@@ -271,8 +272,9 @@
                 duration = tripOptions[i].slice[0].duration;
                 price = tripOptions[i].saleTotal;
 
-                // Conditional stop(s)
+                airlineImage = "img/" + tripOptions[i].pricing[0].fare[0].carrier + ".png";
 
+                // Conditional stop(s)
                 stopWord = (tripOptions[i].slice[0].segment.length - 1 > 1) ? " stops" : " stop";
                 stopValue = tripOptions[i].slice[0].segment.length - 1;
                 // If there are no stops, display Nonstop
@@ -295,15 +297,17 @@
 
                 durationText = hours + "h " + minutes + "m";
 
-                html = '<div class="row-fluid flight-info-row">' +
-                            '<div class="col-xs-2">$' + newPrice + '</div>' +
+                html = '<div class="row-fluid flight-info-row">' + //newPrice
+                            '<div class="col-xs-2">' +
+                                '<div class="airline-image"><img src="' + airlineImage + '" /></div>' +
+                                '<p class="ticket-price">$' + newPrice + '</p>' +
+                            '</div>' +
                             '<div class="col-xs-4">' + departureTime + " &mdash; " + arrivalTime + '</div>' +
                             '<div class="col-xs-3">' + durationText + '</div>' +
                             '<div class="col-xs-3">' + stops + '</div>' +
                         '</div>';
 
                 // Remove old html and append new
-                $("#currentAirport").remove(".flight-info-row");
                 $("#currentAirport").append(html);
             }
         }
@@ -314,9 +318,9 @@
         // Form submit code
         $('#submitFlightForm').on('click', function(e) {
             e.preventDefault();
-            // Get inputs
 
             var destination = "";
+            var departDate = "";
 
             // Loop and find the code according to airport name
             $("#airportList > option").each(function(idx, data) {
@@ -327,6 +331,22 @@
 
             var departDate = $("#departDate").val();
             //var returnDate = $("#returnDate").val();
+
+            if (origin == "") {
+                var flash = '<div class="alert alert-danger"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>Please select an airport from the map!</div>';
+                $("#error-messages").append(flash);
+                return false;
+            }
+            if (destination == "") {
+                var flash = '<div class="alert alert-danger"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>Please select a destination!</div>';
+                $("#error-messages").append(flash);
+                return false;
+            }
+            if (departDate == "") {
+                var flash = '<div class="alert alert-danger"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>Please select a departure date!</div>';
+                $("#error-messages").append(flash);
+                return false;
+            }
 
             var data = {
                 "request": {
@@ -374,19 +394,6 @@
                     console.log(data);
                 })
                 .always(function(data) {
-                    // After the plane is done rotating and the json is done loading, the plane flys away
-                    /*$(".banana-plane-rotate").one("animationiteration webkitAnimationIteration", function() {
-                        $("#flight-info-loading").removeClass("banana-plane-rotate");
-                        $("#flight-info-loading").addClass("banana-plane-fly-away");
-                        $("#flight-info-loading").fadeOut();
-                    });*/
-
-                    // When the plane flys away, stop displaying it
-                    /*$(".banana-plane-fly-away").one("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function() {
-                        $("#flight-info-loading").removeClass("banana-plane-fly-away");
-                        //$("#flight-info-loading").addClass("display-none");
-                    });*/
-
                 });
         });
 

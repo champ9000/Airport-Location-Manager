@@ -74,6 +74,7 @@ html, body {
     padding: .5rem;
     border-bottom: 1px solid #ddd;
     height: 75px;
+    text-align: center;
 }
 
 #currentAirport {
@@ -81,8 +82,31 @@ html, body {
     padding-right: 0;
 }
 
-#flight-form-container {
-    margin-top: 2rem;
+.airline-image {
+    margin-bottom: 7px;
+}
+
+.ticket-price {
+    font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #ddd;
+  text-align: center;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .banana-plane {
