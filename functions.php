@@ -21,3 +21,8 @@ function getPlaces() {
 
     return $places;
 }
+
+var_dump($_POST = $url['https://www.googleapis.com/qpxExpress/v1/trips/search'])
+array (
+0 => array(Destination)
+)

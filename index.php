@@ -11,6 +11,7 @@
       }
       #map {
         height: 50%;
+        width: 75%;
       }
 .controls {
   margin-top: 10px;
@@ -21,6 +22,13 @@
   height: 32px;
   outline: none;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#parameters {
+    height: 100%;
+    width: 25%;
+    align: right;
+    
 }
 
 #pac-input {
@@ -65,6 +73,7 @@
   <body>
     <input id="pac-input" class="controls" type="text" placeholder="Search Box">
     <div id="map"></div>
+    <div id="Parameters"></div>
     <script>
 // This example adds a search box to a map, using the Google Place Autocomplete
 // feature. People can enter geographical searches. The search box will return a
