@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Places Searchbox</title>
+    <title>Flight Search</title>
 </head>
 
 <body>
     <div class=container-fluid>
         <div class="row-fluid map-height">
-            <div class="col-md-8 col-xs-12 map-height">
+            <div class="col-md-8 col-xs-12 map-height" id="map-container">
                 <input id="pac-input" class="controls" type="text" placeholder="Search Box">
                 <div id="map"></div>
                 <div id="Parameters"></div>
@@ -40,7 +40,9 @@
             </div>
         </div>
         <hr>
-        <div class="row-fluid">
+        <div id="flight-info-loading" class="banana-plane">
+        </div>
+        <div class="row-fluid" id="flight-info-panels">
             <div class="col-md-12 col-xs-12">
                 <div class="col-md-4">
                     <div class="panel panel-primary">
@@ -70,9 +72,19 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script>
-        // This example adds a search box to a map, using the Google Place Autocomplete
-        // feature. People can enter geographical searches. The search box will return a
-        // pick list containing a mix of places and predicted search terms.
+        $("#flight-form-container").hide();
+        $("#flight-info-panels").hide();
+        $("#flight-info-loading").hide();
+
+        //$("#map-container").hide();
+        //$("#map").hide();
+        //$("#pac-input").hide();
+
+        $( document ).ready(function() {
+            //$("#map-container").fadeIn();
+            $("#flight-form-container").fadeIn();
+        });
+
 
         // Global origin variable
         var origin = "";
@@ -91,6 +103,7 @@
         }
 
         function initAutocomplete(pos) {
+
             var map = new google.maps.Map(document.getElementById('map'), {
                 center: {
                     lat: pos.lat,
@@ -99,6 +112,12 @@
                 zoom: 13,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             });
+/*
+            google.maps.event.addListenerOnce(map, 'idle', function(){
+                $("#map-container").fadeIn();
+                $("#map").fadeIn();
+                $("#pac-input").fadeIn();
+            });*/
 
             // Create the search box and link it to the UI element.
             var input = document.getElementById('pac-input');
@@ -242,7 +261,7 @@
         // nevermind
         function showFlights(data) {
             var tripOptions = data.trips.tripOption;
-            var duration, price, newPrice, stops, departureTime, arrivalTime, index, durationText, minutes, hours, html, newDepartureTime, stopWord;
+            var duration, price, newPrice, stops, departureTime, arrivalTime, index, durationText, minutes, hours, html, newDepartureTime, stopWord, stopValue;
 
             for (var i = 0; i < tripOptions.length; i++) {
 
@@ -253,9 +272,11 @@
                 price = tripOptions[i].saleTotal;
 
                 // Conditional stop(s)
-                stopWord = (tripOptions[i].slice[0].segment.length == 1) ? "stop" : "stops";
+
+                stopWord = (tripOptions[i].slice[0].segment.length - 1 > 1) ? " stops" : " stop";
+                stopValue = tripOptions[i].slice[0].segment.length - 1;
                 // If there are no stops, display Nonstop
-                stops = (tripOptions[i].slice[0].segment.length - 1 > 0) ? tripOptions[i].slice[0].segment.length - 1 + " stops" : "Nonstop";
+                stops = (tripOptions[i].slice[0].segment.length - 1 > 0) ? stopValue + stopWord : "Nonstop";
 
                 // Get the first departure time and the last arrival time
                 departureTime = tripOptions[i].slice[0].segment[0].leg[0].departureTime;
@@ -326,6 +347,10 @@
                 }
             };
 
+            // Show loading image
+            $("#flight-info-loading").addClass("banana-plane-rotate");
+            $("#flight-info-loading").fadeIn();
+
             // send an ajax call to flights api
             $.ajax({
                     method: "POST",
@@ -335,15 +360,36 @@
                     data: JSON.stringify(data)
                 })
                 .done(function(data) {
-                    showFlights(data);
+                    // Add the fly-away class once the plane has fully rotated
+                    $(".banana-plane-rotate").one('animationiteration webkitAnimationIteration', function() {
+                        $("#flight-info-loading").removeClass("banana-plane-rotate");
+                        $("#flight-info-loading").addClass("banana-plane-fly-away");
+                        $("#flight-info-loading").fadeOut("slow", function() {
+                            showFlights(data);
+                            $("#flight-info-panels").fadeIn();
+                        });
+                    });
                 })
                 .fail(function(data) {
                     console.log(data);
                 })
                 .always(function(data) {
-                    //console.log(data);
+                    // After the plane is done rotating and the json is done loading, the plane flys away
+                    /*$(".banana-plane-rotate").one("animationiteration webkitAnimationIteration", function() {
+                        $("#flight-info-loading").removeClass("banana-plane-rotate");
+                        $("#flight-info-loading").addClass("banana-plane-fly-away");
+                        $("#flight-info-loading").fadeOut();
+                    });*/
+
+                    // When the plane flys away, stop displaying it
+                    /*$(".banana-plane-fly-away").one("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function() {
+                        $("#flight-info-loading").removeClass("banana-plane-fly-away");
+                        //$("#flight-info-loading").addClass("display-none");
+                    });*/
+
                 });
         });
+
     </script>
 </body>
 

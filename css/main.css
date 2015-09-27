@@ -84,3 +84,81 @@ html, body {
 #flight-form-container {
     margin-top: 2rem;
 }
+
+.banana-plane {
+    margin: 0 auto;
+    content: url('../img/bananaplane.png');
+    width: 8%;
+    height: 8%;
+    position: relative;
+    top: 15rem;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+    transition-property: transform;
+    transition-duration: 1s;
+    transform-origin: 50% 0%;
+}
+
+.banana-plane-rotate {
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotate;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.banana-plane-fly-away {
+    -webkit-animation-name: fly-away;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;;
+    -moz-animation-name: fly-away;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: ease-in-out;;
+    animation-name: fly-away;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes fly-away {
+    50% {
+        transform: translateX(-25%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+@-moz-keyframes fly-away {
+    50% {
+        transform: translateX(-25%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+@keyframes fly-away {
+    100% {
+        transform: translateX(-1000%);
+    }
+}
