@@ -1,0 +1,2994 @@
+{
+  "collection1": [
+    {
+      "code": "BHM",
+      "city": "Birmingham",
+      "airportName": {
+        "text": "Birmingham–Shuttlesworth International Airport",
+        "href": "https://en.wikipedia.org/wiki/Birmingham%E2%80%93Shuttlesworth_International_Airport"
+      }
+    },
+    {
+      "code": "DHN",
+      "city": "Dothan",
+      "airportName": {
+        "text": "Dothan Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Dothan_Regional_Airport"
+      }
+    },
+    {
+      "code": "HSV",
+      "city": "Huntsville",
+      "airportName": {
+        "text": "Huntsville International Airport",
+        "href": "https://en.wikipedia.org/wiki/Huntsville_International_Airport"
+      }
+    },
+    {
+      "code": "MOB",
+      "city": "Mobile",
+      "airportName": {
+        "text": "Mobile Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Mobile_Regional_Airport"
+      }
+    },
+    {
+      "code": "MGM",
+      "city": "Montgomery",
+      "airportName": {
+        "text": "Montgomery Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Montgomery_Regional_Airport"
+      }
+    },
+    {
+      "code": "IFP",
+      "city": "Bullhead City",
+      "airportName": {
+        "text": "Laughlin/Bullhead International Airport",
+        "href": "https://en.wikipedia.org/wiki/Laughlin/Bullhead_International_Airport"
+      }
+    },
+    {
+      "code": "FLG",
+      "city": "Flagstaff",
+      "airportName": {
+        "text": "Flagstaff Pulliam Airport",
+        "href": "https://en.wikipedia.org/wiki/Flagstaff_Pulliam_Airport"
+      }
+    },
+    {
+      "code": "IWA",
+      "city": "Mesa",
+      "airportName": {
+        "text": "Phoenix–Mesa Gateway Airport",
+        "href": "https://en.wikipedia.org/wiki/Phoenix%E2%80%93Mesa_Gateway_Airport"
+      }
+    },
+    {
+      "code": "PGA",
+      "city": "Page",
+      "airportName": {
+        "text": "Page Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Page_Municipal_Airport"
+      }
+    },
+    {
+      "code": "1G4",
+      "city": "Peach Springs",
+      "airportName": {
+        "text": "Grand Canyon West Airport",
+        "href": "https://en.wikipedia.org/wiki/Grand_Canyon_West_Airport"
+      }
+    },
+    {
+      "code": "GCN",
+      "city": [
+        "Grand Canyon",
+        "Tusayan"
+      ],
+      "airportName": {
+        "text": "Grand Canyon National Park Airport",
+        "href": "https://en.wikipedia.org/wiki/Grand_Canyon_National_Park_Airport"
+      }
+    },
+    {
+      "code": "PHX",
+      "city": "Phoenix",
+      "airportName": {
+        "text": "Phoenix Sky Harbor International Airport",
+        "href": "https://en.wikipedia.org/wiki/Phoenix_Sky_Harbor_International_Airport"
+      }
+    },
+    {
+      "code": "TUS",
+      "city": "Tucson",
+      "airportName": {
+        "text": "Tucson International Airport",
+        "href": "https://en.wikipedia.org/wiki/Tucson_International_Airport"
+      }
+    },
+    {
+      "code": "NYL",
+      "city": "Yuma",
+      "airportName": {
+        "text": "Yuma International Airport",
+        "href": "https://en.wikipedia.org/wiki/Yuma_International_Airport"
+      }
+    },
+    {
+      "code": "XNA",
+      "city": "Fayetteville",
+      "airportName": {
+        "text": "Northwest Arkansas Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Northwest_Arkansas_Regional_Airport"
+      }
+    },
+    {
+      "code": "FSM",
+      "city": "Fort Smith",
+      "airportName": {
+        "text": "Fort Smith Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Fort_Smith_Regional_Airport"
+      }
+    },
+    {
+      "code": "LIT",
+      "city": "Little Rock",
+      "airportName": {
+        "text": "Bill and Hillary Clinton National Airport",
+        "href": "https://en.wikipedia.org/wiki/Bill_and_Hillary_Clinton_National_Airport"
+      }
+    },
+    {
+      "code": "TXK",
+      "city": "Texarkana",
+      "airportName": {
+        "text": "Texarkana Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Texarkana_Regional_Airport"
+      }
+    },
+    {
+      "code": "BFL",
+      "city": "Bakersfield",
+      "airportName": {
+        "text": "Meadows Field",
+        "href": "https://en.wikipedia.org/wiki/Meadows_Field"
+      }
+    },
+    {
+      "code": "BUR",
+      "city": "Burbank",
+      "airportName": {
+        "text": "Bob Hope Airport",
+        "href": "https://en.wikipedia.org/wiki/Bob_Hope_Airport"
+      }
+    },
+    {
+      "code": "CRQ",
+      "city": "Carlsbad",
+      "airportName": {
+        "text": "McClellan–Palomar Airport",
+        "href": "https://en.wikipedia.org/wiki/McClellan%E2%80%93Palomar_Airport"
+      }
+    },
+    {
+      "code": "CIC",
+      "city": "Chico",
+      "airportName": {
+        "text": "Chico Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Chico_Municipal_Airport"
+      }
+    },
+    {
+      "code": "CEC",
+      "city": "Crescent City",
+      "airportName": {
+        "text": "Del Norte County Airport",
+        "href": "https://en.wikipedia.org/wiki/Del_Norte_County_Airport"
+      }
+    },
+    {
+      "code": "FAT",
+      "city": "Fresno",
+      "airportName": {
+        "text": "Fresno Yosemite International Airport",
+        "href": "https://en.wikipedia.org/wiki/Fresno_Yosemite_International_Airport"
+      }
+    },
+    {
+      "code": "LGB",
+      "city": "Long Beach",
+      "airportName": {
+        "text": "Long Beach Airport",
+        "href": "https://en.wikipedia.org/wiki/Long_Beach_Airport"
+      }
+    },
+    {
+      "code": "LAX",
+      "city": "Los Angeles",
+      "airportName": {
+        "text": "Los Angeles International Airport",
+        "href": "https://en.wikipedia.org/wiki/Los_Angeles_International_Airport"
+      }
+    },
+    {
+      "code": "ACV",
+      "city": [
+        "Arcata",
+        "Eureka"
+      ],
+      "airportName": {
+        "text": "Arcata Airport",
+        "href": "https://en.wikipedia.org/wiki/Arcata-Eureka_Airport"
+      }
+    },
+    {
+      "code": "MMH",
+      "city": "Mammoth Lakes",
+      "airportName": {
+        "text": "Mammoth Yosemite Airport",
+        "href": "https://en.wikipedia.org/wiki/Mammoth_Yosemite_Airport"
+      }
+    },
+    {
+      "code": "MOD",
+      "city": "Modesto",
+      "airportName": {
+        "text": "Modesto City–County Airport",
+        "href": "https://en.wikipedia.org/wiki/Modesto_City%E2%80%93County_Airport"
+      }
+    },
+    {
+      "code": "MRY",
+      "city": "Monterey",
+      "airportName": {
+        "text": "Monterey Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Monterey_Regional_Airport"
+      }
+    },
+    {
+      "code": "OAK",
+      "city": "Oakland",
+      "airportName": {
+        "text": "Oakland International Airport",
+        "href": "https://en.wikipedia.org/wiki/Oakland_International_Airport"
+      }
+    },
+    {
+      "code": "ONT",
+      "city": "Ontario",
+      "airportName": {
+        "text": "Ontario International Airport",
+        "href": "https://en.wikipedia.org/wiki/Ontario_International_Airport"
+      }
+    },
+    {
+      "code": "PSP",
+      "city": "Palm Springs",
+      "airportName": {
+        "text": "Palm Springs International Airport",
+        "href": "https://en.wikipedia.org/wiki/Palm_Springs_International_Airport"
+      }
+    },
+    {
+      "code": "RDD",
+      "city": "Redding",
+      "airportName": {
+        "text": "Redding Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Redding_Municipal_Airport"
+      }
+    },
+    {
+      "code": "SMF",
+      "city": "Sacramento",
+      "airportName": {
+        "text": "Sacramento International Airport",
+        "href": "https://en.wikipedia.org/wiki/Sacramento_International_Airport"
+      }
+    },
+    {
+      "code": "SAN",
+      "city": "San Diego",
+      "airportName": {
+        "text": "San Diego International Airport",
+        "href": "https://en.wikipedia.org/wiki/San_Diego_International_Airport"
+      }
+    },
+    {
+      "code": "SFO",
+      "city": "San Francisco",
+      "airportName": {
+        "text": "San Francisco International Airport",
+        "href": "https://en.wikipedia.org/wiki/San_Francisco_International_Airport"
+      }
+    },
+    {
+      "code": "SJC",
+      "city": "San Jose",
+      "airportName": {
+        "text": "Norman Y. Mineta San José International Airport",
+        "href": "https://en.wikipedia.org/wiki/San_Jose_International_Airport"
+      }
+    },
+    {
+      "code": "SBP",
+      "city": "San Luis Obispo",
+      "airportName": {
+        "text": "San Luis Obispo County Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/San_Luis_Obispo_County_Regional_Airport"
+      }
+    },
+    {
+      "code": "SNA",
+      "city": "Santa Ana",
+      "airportName": {
+        "text": "John Wayne Airport – Orange County",
+        "href": "https://en.wikipedia.org/wiki/John_Wayne_Airport"
+      }
+    },
+    {
+      "code": "SBA",
+      "city": "Santa Barbara",
+      "airportName": {
+        "text": "Santa Barbara Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Santa_Barbara_Municipal_Airport"
+      }
+    },
+    {
+      "code": "SMX",
+      "city": "Santa Maria",
+      "airportName": {
+        "text": "Santa Maria Public Airport",
+        "href": "https://en.wikipedia.org/wiki/Santa_Maria_Public_Airport"
+      }
+    },
+    {
+      "code": "STS",
+      "city": "Santa Rosa",
+      "airportName": {
+        "text": "Charles M. Schulz–Sonoma County Airport",
+        "href": "https://en.wikipedia.org/wiki/Charles_M._Schulz%E2%80%93Sonoma_County_Airport"
+      }
+    },
+    {
+      "code": "SCK",
+      "city": "Stockton",
+      "airportName": {
+        "text": "Stockton Metropolitan Airport",
+        "href": "https://en.wikipedia.org/wiki/Stockton_Metropolitan_Airport"
+      }
+    },
+    {
+      "code": "ASE",
+      "city": "Aspen",
+      "airportName": {
+        "text": "Aspen-Pitkin County Airport",
+        "href": "https://en.wikipedia.org/wiki/Aspen-Pitkin_County_Airport"
+      }
+    },
+    {
+      "code": "COS",
+      "city": "Colorado Springs",
+      "airportName": {
+        "text": "City of Colorado Springs Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Colorado_Springs_Airport"
+      }
+    },
+    {
+      "code": "DEN",
+      "city": "Denver",
+      "airportName": {
+        "text": "Denver International Airport",
+        "href": "https://en.wikipedia.org/wiki/Denver_International_Airport"
+      }
+    },
+    {
+      "code": "DRO",
+      "city": "Durango",
+      "airportName": {
+        "text": "Durango-La Plata County Airport",
+        "href": "https://en.wikipedia.org/wiki/Durango-La_Plata_County_Airport"
+      }
+    },
+    {
+      "code": "EGE",
+      "city": "Eagle",
+      "airportName": {
+        "text": "Eagle County Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Eagle_County_Regional_Airport"
+      }
+    },
+    {
+      "code": "GJT",
+      "city": "Grand Junction",
+      "airportName": {
+        "text": "Grand Junction Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Grand_Junction_Regional_Airport"
+      }
+    },
+    {
+      "code": "GUC",
+      "city": "Gunnison",
+      "airportName": {
+        "text": "Gunnison-Crested Butte Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Gunnison-Crested_Butte_Regional_Airport"
+      }
+    },
+    {
+      "code": "HDN",
+      "city": "Hayden",
+      "airportName": {
+        "text": "Yampa Valley Airport",
+        "href": "https://en.wikipedia.org/wiki/Yampa_Valley_Airport"
+      }
+    },
+    {
+      "code": "MTJ",
+      "city": "Montrose",
+      "airportName": {
+        "text": "Montrose Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Montrose_Regional_Airport"
+      }
+    },
+    {
+      "code": "BDL",
+      "city": "Hartford",
+      "airportName": {
+        "text": "Bradley International Airport",
+        "href": "https://en.wikipedia.org/wiki/Bradley_International_Airport"
+      }
+    },
+    {
+      "code": "HVN",
+      "city": "New Haven",
+      "airportName": {
+        "text": "Tweed New Haven Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Tweed_New_Haven_Regional_Airport"
+      }
+    },
+    {
+      "code": "DAB",
+      "city": "Daytona Beach",
+      "airportName": {
+        "text": "Daytona Beach International Airport",
+        "href": "https://en.wikipedia.org/wiki/Daytona_Beach_International_Airport"
+      }
+    },
+    {
+      "code": "FLL",
+      "city": "Fort Lauderdale",
+      "airportName": {
+        "text": "Fort Lauderdale–Hollywood International Airport",
+        "href": "https://en.wikipedia.org/wiki/Fort_Lauderdale%E2%80%93Hollywood_International_Airport"
+      }
+    },
+    {
+      "code": "RSW",
+      "city": "Fort Myers",
+      "airportName": {
+        "text": "Southwest Florida International Airport",
+        "href": "https://en.wikipedia.org/wiki/Southwest_Florida_International_Airport"
+      }
+    },
+    {
+      "code": "GNV",
+      "city": "Gainesville",
+      "airportName": {
+        "text": "Gainesville Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Gainesville_Regional_Airport"
+      }
+    },
+    {
+      "code": "JAX",
+      "city": "Jacksonville",
+      "airportName": {
+        "text": "Jacksonville International Airport",
+        "href": "https://en.wikipedia.org/wiki/Jacksonville_International_Airport"
+      }
+    },
+    {
+      "code": "EYW",
+      "city": "Key West",
+      "airportName": {
+        "text": "Key West International Airport",
+        "href": "https://en.wikipedia.org/wiki/Key_West_International_Airport"
+      }
+    },
+    {
+      "code": "MLB",
+      "city": "Melbourne",
+      "airportName": {
+        "text": "Melbourne International Airport",
+        "href": "https://en.wikipedia.org/wiki/Melbourne_International_Airport"
+      }
+    },
+    {
+      "code": "MIA",
+      "city": "Miami",
+      "airportName": {
+        "text": "Miami International Airport",
+        "href": "https://en.wikipedia.org/wiki/Miami_International_Airport"
+      }
+    },
+    {
+      "code": "MCO",
+      "city": "Orlando",
+      "airportName": {
+        "text": "Orlando International Airport",
+        "href": "https://en.wikipedia.org/wiki/Orlando_International_Airport"
+      }
+    },
+    {
+      "code": "ECP",
+      "city": "Panama City Beach",
+      "airportName": {
+        "text": "Northwest Florida Beaches International Airport",
+        "href": "https://en.wikipedia.org/wiki/Northwest_Florida_Beaches_International_Airport"
+      }
+    },
+    {
+      "code": "PNS",
+      "city": "Pensacola",
+      "airportName": {
+        "text": "Pensacola International Airport",
+        "href": "https://en.wikipedia.org/wiki/Pensacola_International_Airport"
+      }
+    },
+    {
+      "code": "PGD",
+      "city": "Punta Gorda",
+      "airportName": {
+        "text": "Punta Gorda Airport",
+        "href": "https://en.wikipedia.org/wiki/Punta_Gorda_Airport_(Florida)"
+      }
+    },
+    {
+      "code": "SGJ",
+      "city": "St. Augustine",
+      "airportName": {
+        "text": "Northeast Florida Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Northeast_Florida_Regional_Airport"
+      }
+    },
+    {
+      "code": "TLH",
+      "city": "Tallahassee",
+      "airportName": {
+        "text": "Tallahassee Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Tallahassee_Regional_Airport"
+      }
+    },
+    {
+      "code": "TPA",
+      "city": "Tampa",
+      "airportName": {
+        "text": "Tampa International Airport",
+        "href": "https://en.wikipedia.org/wiki/Tampa_International_Airport"
+      }
+    },
+    {
+      "code": "VPS",
+      "city": "Valparaiso",
+      "airportName": {
+        "text": "Destin–Fort Walton Beach Airport",
+        "href": "https://en.wikipedia.org/wiki/Destin%E2%80%93Fort_Walton_Beach_Airport"
+      }
+    },
+    {
+      "code": "PBI",
+      "city": "West Palm Beach",
+      "airportName": {
+        "text": "Palm Beach International Airport",
+        "href": "https://en.wikipedia.org/wiki/Palm_Beach_International_Airport"
+      }
+    },
+    {
+      "code": "ABY",
+      "city": "Albany",
+      "airportName": {
+        "text": "Southwest Georgia Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Southwest_Georgia_Regional_Airport"
+      }
+    },
+    {
+      "code": "ATL",
+      "city": "Atlanta",
+      "airportName": {
+        "text": "Hartsfield-Jackson Atlanta International Airport",
+        "href": "https://en.wikipedia.org/wiki/Hartsfield-Jackson_Atlanta_International_Airport"
+      }
+    },
+    {
+      "code": "AGS",
+      "city": "Augusta",
+      "airportName": {
+        "text": "Augusta Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Augusta_Regional_Airport"
+      }
+    },
+    {
+      "code": "BQK",
+      "city": "Brunswick",
+      "airportName": {
+        "text": "Brunswick Golden Isles Airport",
+        "href": "https://en.wikipedia.org/wiki/Brunswick_Golden_Isles_Airport"
+      }
+    },
+    {
+      "code": "CSG",
+      "city": "Columbus",
+      "airportName": {
+        "text": "Columbus Metropolitan Airport",
+        "href": "https://en.wikipedia.org/wiki/Columbus_Metropolitan_Airport_(Georgia)"
+      }
+    },
+    {
+      "code": "SAV",
+      "city": "Savannah",
+      "airportName": {
+        "text": "Savannah/Hilton Head International Airport",
+        "href": "https://en.wikipedia.org/wiki/Savannah/Hilton_Head_International_Airport"
+      }
+    },
+    {
+      "code": "VLD",
+      "city": "Valdosta",
+      "airportName": {
+        "text": "Valdosta Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Valdosta_Regional_Airport"
+      }
+    },
+    {
+      "code": "ITO",
+      "city": "Hilo",
+      "airportName": {
+        "text": "Hilo International Airport",
+        "href": "https://en.wikipedia.org/wiki/Hilo_International_Airport"
+      }
+    },
+    {
+      "code": "HNL",
+      "city": "Honolulu",
+      "airportName": {
+        "text": "Honolulu International Airport",
+        "href": "https://en.wikipedia.org/wiki/Honolulu_International_Airport"
+      }
+    },
+    {
+      "code": "OGG",
+      "city": "Kahului",
+      "airportName": {
+        "text": "Kahului Airport",
+        "href": "https://en.wikipedia.org/wiki/Kahului_Airport"
+      }
+    },
+    {
+      "code": "KOA",
+      "city": "Kailua/Kona",
+      "airportName": {
+        "text": "Kona International Airport at Keahole",
+        "href": "https://en.wikipedia.org/wiki/Kona_International_Airport"
+      }
+    },
+    {
+      "code": "MKK",
+      "city": "Kaunakakai",
+      "airportName": {
+        "text": "Molokai Airport",
+        "href": "https://en.wikipedia.org/wiki/Molokai_Airport"
+      }
+    },
+    {
+      "code": "LNY",
+      "city": "Lanai City",
+      "airportName": {
+        "text": "Lanai Airport",
+        "href": "https://en.wikipedia.org/wiki/Lanai_Airport"
+      }
+    },
+    {
+      "code": "SFB",
+      "city": [
+        "Orlando",
+        "Sanford"
+      ],
+      "airportName": {
+        "text": "Orlando Sanford International Airport",
+        "href": "https://en.wikipedia.org/wiki/Orlando_Sanford_International_Airport"
+      }
+    },
+    {
+      "code": "LIH",
+      "city": "Lihue",
+      "airportName": {
+        "text": "Lihue Airport",
+        "href": "https://en.wikipedia.org/wiki/Lihue_Airport"
+      }
+    },
+    {
+      "code": "BOI",
+      "city": "Boise",
+      "airportName": {
+        "text": "Boise Airport",
+        "href": "https://en.wikipedia.org/wiki/Boise_Airport"
+      }
+    },
+    {
+      "code": "SUN",
+      "city": "Hailey",
+      "airportName": {
+        "text": "Friedman Memorial Airport",
+        "href": "https://en.wikipedia.org/wiki/Friedman_Memorial_Airport"
+      }
+    },
+    {
+      "code": "IDA",
+      "city": "Idaho Falls",
+      "airportName": {
+        "text": "Idaho Falls Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Idaho_Falls_Regional_Airport"
+      }
+    },
+    {
+      "code": "LWS",
+      "city": "Lewiston",
+      "airportName": {
+        "text": "Lewiston-Nez Perce County Airport",
+        "href": "https://en.wikipedia.org/wiki/Lewiston-Nez_Perce_County_Airport"
+      }
+    },
+    {
+      "code": "SRQ",
+      "city": [
+        "Sarasota",
+        "Bradenton"
+      ],
+      "airportName": {
+        "text": "Sarasota–Bradenton International Airport",
+        "href": "https://en.wikipedia.org/wiki/Sarasota%E2%80%93Bradenton_International_Airport"
+      }
+    },
+    {
+      "code": "TWF",
+      "city": "Twin Falls",
+      "airportName": {
+        "text": "Magic Valley Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Magic_Valley_Regional_Airport"
+      }
+    },
+    {
+      "code": "BLV",
+      "city": "Belleville",
+      "airportName": {
+        "text": "MidAmerica St. Louis Airport",
+        "href": "https://en.wikipedia.org/wiki/MidAmerica_St._Louis_Airport"
+      }
+    },
+    {
+      "code": "PIE",
+      "city": [
+        "St. Petersburg",
+        "Clearwater"
+      ],
+      "airportName": {
+        "text": "St. Petersburg International Airport",
+        "href": "https://en.wikipedia.org/wiki/St._Petersburg-Clearwater_International_Airport"
+      }
+    },
+    {
+      "code": "ORD",
+      "city": "Chicago",
+      "airportName": {
+        "text": "Chicago O'Hare International Airport",
+        "href": "https://en.wikipedia.org/wiki/O%27Hare_International_Airport"
+      }
+    },
+    {
+      "code": "MDW",
+      "city": "Chicago",
+      "airportName": {
+        "text": "Chicago Midway International Airport",
+        "href": "https://en.wikipedia.org/wiki/Chicago_Midway_International_Airport"
+      }
+    },
+    {
+      "code": "MWA",
+      "city": "Marion",
+      "airportName": {
+        "text": "Williamson County Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Williamson_County_Regional_Airport"
+      }
+    },
+    {
+      "code": "MLI",
+      "city": "Moline",
+      "airportName": {
+        "text": "Quad City International Airport",
+        "href": "https://en.wikipedia.org/wiki/Quad_City_International_Airport"
+      }
+    },
+    {
+      "code": "PIA",
+      "city": "Peoria",
+      "airportName": {
+        "text": "General Downing - Peoria International Airport",
+        "href": "https://en.wikipedia.org/wiki/General_Wayne_A._Downing_Peoria_International_Airport"
+      }
+    },
+    {
+      "code": "UIN",
+      "city": "Quincy",
+      "airportName": {
+        "text": "Quincy Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Quincy_Regional_Airport"
+      }
+    },
+    {
+      "code": "RFD",
+      "city": "Rockford",
+      "airportName": {
+        "text": "Chicago Rockford International Airport",
+        "href": "https://en.wikipedia.org/wiki/Chicago_Rockford_International_Airport"
+      }
+    },
+    {
+      "code": "SPI",
+      "city": "Springfield",
+      "airportName": {
+        "text": "Abraham Lincoln Capital Airport",
+        "href": "https://en.wikipedia.org/wiki/Abraham_Lincoln_Capital_Airport"
+      }
+    },
+    {
+      "code": "EVV",
+      "city": "Evansville",
+      "airportName": {
+        "text": "Evansville Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Evansville_Regional_Airport"
+      }
+    },
+    {
+      "code": "FWA",
+      "city": "Fort Wayne",
+      "airportName": {
+        "text": "Fort Wayne International Airport",
+        "href": "https://en.wikipedia.org/wiki/Fort_Wayne_International_Airport"
+      }
+    },
+    {
+      "code": "IND",
+      "city": "Indianapolis",
+      "airportName": {
+        "text": "Indianapolis International Airport",
+        "href": "https://en.wikipedia.org/wiki/Indianapolis_International_Airport"
+      }
+    },
+    {
+      "code": "SBN",
+      "city": "South Bend",
+      "airportName": {
+        "text": "South Bend International Airport",
+        "href": "https://en.wikipedia.org/wiki/South_Bend_International_Airport"
+      }
+    },
+    {
+      "code": "CID",
+      "city": "Cedar Rapids",
+      "airportName": {
+        "text": "The Eastern Iowa Airport",
+        "href": "https://en.wikipedia.org/wiki/The_Eastern_Iowa_Airport"
+      }
+    },
+    {
+      "code": "DSM",
+      "city": "Des Moines",
+      "airportName": {
+        "text": "Des Moines International Airport",
+        "href": "https://en.wikipedia.org/wiki/Des_Moines_International_Airport"
+      }
+    },
+    {
+      "code": "DBQ",
+      "city": "Dubuque",
+      "airportName": {
+        "text": "Dubuque Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Dubuque_Regional_Airport"
+      }
+    },
+    {
+      "code": "SUX",
+      "city": "Sioux City",
+      "airportName": {
+        "text": "Sioux Gateway Airport",
+        "href": "https://en.wikipedia.org/wiki/Sioux_Gateway_Airport"
+      }
+    },
+    {
+      "code": "ALO",
+      "city": "Waterloo",
+      "airportName": {
+        "text": "Waterloo Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Waterloo_Regional_Airport"
+      }
+    },
+    {
+      "code": "GCK",
+      "city": "Garden City",
+      "airportName": {
+        "text": "Garden City Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Garden_City_Regional_Airport"
+      }
+    },
+    {
+      "code": "MHK",
+      "city": "Manhattan",
+      "airportName": {
+        "text": "Manhattan Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Manhattan_Regional_Airport"
+      }
+    },
+    {
+      "code": "ICT",
+      "city": "Wichita",
+      "airportName": {
+        "text": "Wichita Dwight D. Eisenhower National Airport",
+        "href": "https://en.wikipedia.org/wiki/Wichita_Dwight_D._Eisenhower_National_Airport"
+      }
+    },
+    {
+      "code": "CVG",
+      "city": "Covington",
+      "airportName": {
+        "text": "Cincinnati/Northern Kentucky International Airport",
+        "href": "https://en.wikipedia.org/wiki/Cincinnati/Northern_Kentucky_International_Airport"
+      }
+    },
+    {
+      "code": "LEX",
+      "city": "Lexington",
+      "airportName": {
+        "text": "Blue Grass Airport",
+        "href": "https://en.wikipedia.org/wiki/Blue_Grass_Airport"
+      }
+    },
+    {
+      "code": "SDF",
+      "city": "Louisville",
+      "airportName": {
+        "text": "Louisville International Airport",
+        "href": "https://en.wikipedia.org/wiki/Louisville_International_Airport"
+      }
+    },
+    {
+      "code": "OWB",
+      "city": "Owensboro",
+      "airportName": {
+        "text": "Owensboro-Daviess County Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Owensboro-Daviess_County_Regional_Airport"
+      }
+    },
+    {
+      "code": "PAH",
+      "city": "Paducah",
+      "airportName": {
+        "text": "Barkley Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Barkley_Regional_Airport"
+      }
+    },
+    {
+      "code": "AEX",
+      "city": "Alexandria",
+      "airportName": {
+        "text": "Alexandria International Airport",
+        "href": "https://en.wikipedia.org/wiki/Alexandria_International_Airport_(Louisiana)"
+      }
+    },
+    {
+      "code": "BTR",
+      "city": "Baton Rouge",
+      "airportName": {
+        "text": "Baton Rouge Metropolitan Airport",
+        "href": "https://en.wikipedia.org/wiki/Baton_Rouge_Metropolitan_Airport"
+      }
+    },
+    {
+      "code": "LFT",
+      "city": "Lafayette",
+      "airportName": {
+        "text": "Lafayette Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Lafayette_Regional_Airport"
+      }
+    },
+    {
+      "code": "LCH",
+      "city": "Lake Charles",
+      "airportName": {
+        "text": "Lake Charles Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Lake_Charles_Regional_Airport"
+      }
+    },
+    {
+      "code": "PIH",
+      "city": [
+        "Pocatello",
+        "Arbon Valley"
+      ],
+      "airportName": {
+        "text": "Pocatello Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Pocatello_Regional_Airport"
+      }
+    },
+    {
+      "code": "MLU",
+      "city": "Monroe",
+      "airportName": {
+        "text": "Monroe Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Monroe_Regional_Airport_(Louisiana)"
+      }
+    },
+    {
+      "code": "MSY",
+      "city": "New Orleans",
+      "airportName": {
+        "text": "Louis Armstrong New Orleans International Airport",
+        "href": "https://en.wikipedia.org/wiki/Louis_Armstrong_New_Orleans_International_Airport"
+      }
+    },
+    {
+      "code": "SHV",
+      "city": "Shreveport",
+      "airportName": {
+        "text": "Shreveport Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Shreveport_Regional_Airport"
+      }
+    },
+    {
+      "code": "BGR",
+      "city": "Bangor",
+      "airportName": {
+        "text": "Bangor International Airport",
+        "href": "https://en.wikipedia.org/wiki/Bangor_International_Airport"
+      }
+    },
+    {
+      "code": "BHB",
+      "city": "Bar Harbor",
+      "airportName": {
+        "text": "Hancock County-Bar Harbor Airport",
+        "href": "https://en.wikipedia.org/wiki/Hancock_County-Bar_Harbor_Airport"
+      }
+    },
+    {
+      "code": "BMI",
+      "city": [
+        "Bloomington",
+        "Normal"
+      ],
+      "airportName": {
+        "text": "Central Illinois Regional Airport at Bloomington-Normal",
+        "href": "https://en.wikipedia.org/wiki/Central_Illinois_Regional_Airport"
+      }
+    },
+    {
+      "code": "PWM",
+      "city": "Portland",
+      "airportName": {
+        "text": "Portland International Jetport",
+        "href": "https://en.wikipedia.org/wiki/Portland_International_Jetport"
+      }
+    },
+    {
+      "code": "PQI",
+      "city": "Presque Isle",
+      "airportName": {
+        "text": "Northern Maine Regional Airport at Presque Isle",
+        "href": "https://en.wikipedia.org/wiki/Northern_Maine_Regional_Airport_at_Presque_Isle"
+      }
+    },
+    {
+      "code": "CMI",
+      "city": [
+        "Champaign",
+        "Urbana"
+      ],
+      "airportName": {
+        "text": "University of Illinois - Willard Airport",
+        "href": "https://en.wikipedia.org/wiki/University_of_Illinois_Willard_Airport"
+      }
+    },
+    {
+      "code": "RKD",
+      "city": "Rockland",
+      "airportName": {
+        "text": "Knox County Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Knox_County_Regional_Airport"
+      }
+    },
+    {
+      "code": "SBY",
+      "city": "Salisbury",
+      "airportName": {
+        "text": "Salisbury-Ocean City Wicomico Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Salisbury-Ocean_City_Wicomico_Regional_Airport"
+      }
+    },
+    {
+      "code": "HGR",
+      "city": "Hagerstown",
+      "airportName": {
+        "text": "Hagerstown Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Hagerstown_Regional_Airport"
+      }
+    },
+    {
+      "code": "BOS",
+      "city": "Boston",
+      "airportName": {
+        "text": "Gen. Edward Lawrence Logan International Airport",
+        "href": "https://en.wikipedia.org/wiki/Logan_International_Airport"
+      }
+    },
+    {
+      "code": "HYA",
+      "city": "Hyannis",
+      "airportName": {
+        "text": "Barnstable Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Barnstable_Municipal_Airport"
+      }
+    },
+    {
+      "code": "ACK",
+      "city": "Nantucket",
+      "airportName": {
+        "text": "Nantucket Memorial Airport",
+        "href": "https://en.wikipedia.org/wiki/Nantucket_Memorial_Airport"
+      }
+    },
+    {
+      "code": "EWB",
+      "city": "New Bedford",
+      "airportName": {
+        "text": "New Bedford Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/New_Bedford_Regional_Airport"
+      }
+    },
+    {
+      "code": "PVC",
+      "city": "Provincetown",
+      "airportName": {
+        "text": "Provincetown Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Provincetown_Municipal_Airport"
+      }
+    },
+    {
+      "code": "MVY",
+      "city": "Vineyard Haven",
+      "airportName": {
+        "text": "Martha's Vineyard Airport",
+        "href": "https://en.wikipedia.org/wiki/Martha%27s_Vineyard_Airport"
+      }
+    },
+    {
+      "code": "APN",
+      "city": "Alpena",
+      "airportName": {
+        "text": "Alpena County Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Alpena_County_Regional_Airport"
+      }
+    },
+    {
+      "code": "CVX",
+      "city": "Charlevoix",
+      "airportName": {
+        "text": "Charlevoix Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Charlevoix_Municipal_Airport"
+      }
+    },
+    {
+      "code": "ESC",
+      "city": "Escanaba",
+      "airportName": {
+        "text": "Delta County Airport",
+        "href": "https://en.wikipedia.org/wiki/Delta_County_Airport"
+      }
+    },
+    {
+      "code": "FNT",
+      "city": "Flint",
+      "airportName": {
+        "text": "Bishop International Airport",
+        "href": "https://en.wikipedia.org/wiki/Bishop_International_Airport"
+      }
+    },
+    {
+      "code": "GRR",
+      "city": "Grand Rapids",
+      "airportName": {
+        "text": "Gerald R. Ford International Airport",
+        "href": "https://en.wikipedia.org/wiki/Gerald_R._Ford_International_Airport"
+      }
+    },
+    {
+      "code": "LAN",
+      "city": "Lansing",
+      "airportName": {
+        "text": "Capital Region International Airport",
+        "href": "https://en.wikipedia.org/wiki/Capital_Region_International_Airport"
+      }
+    },
+    {
+      "code": "MKG",
+      "city": "Muskegon",
+      "airportName": {
+        "text": "Muskegon County Airport",
+        "href": "https://en.wikipedia.org/wiki/Muskegon_County_Airport"
+      }
+    },
+    {
+      "code": "PLN",
+      "city": "Pellston",
+      "airportName": {
+        "text": "Pellston Regional Airport of Emmet County",
+        "href": "https://en.wikipedia.org/wiki/Pellston_Regional_Airport"
+      }
+    },
+    {
+      "code": "MBS",
+      "city": "Saginaw",
+      "airportName": {
+        "text": "MBS International Airport",
+        "href": "https://en.wikipedia.org/wiki/MBS_International_Airport"
+      }
+    },
+    {
+      "code": "CIU",
+      "city": "Sault Ste. Marie",
+      "airportName": {
+        "text": "Chippewa County International Airport",
+        "href": "https://en.wikipedia.org/wiki/Chippewa_County_International_Airport"
+      }
+    },
+    {
+      "code": "TVC",
+      "city": "Traverse City",
+      "airportName": {
+        "text": "Cherry Capital Airport",
+        "href": "https://en.wikipedia.org/wiki/Cherry_Capital_Airport"
+      }
+    },
+    {
+      "code": "BJI",
+      "city": "Bemidji",
+      "airportName": {
+        "text": "Bemidji Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Bemidji_Regional_Airport"
+      }
+    },
+    {
+      "code": "BRD",
+      "city": "Brainerd",
+      "airportName": {
+        "text": "Brainerd Lakes Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Brainerd_Lakes_Regional_Airport"
+      }
+    },
+    {
+      "code": "DLH",
+      "city": "Duluth",
+      "airportName": {
+        "text": "Duluth International Airport",
+        "href": "https://en.wikipedia.org/wiki/Duluth_International_Airport"
+      }
+    },
+    {
+      "code": "HIB",
+      "city": "Hibbing",
+      "airportName": {
+        "text": "Range Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Range_Regional_Airport"
+      }
+    },
+    {
+      "code": "INL",
+      "city": "International Falls",
+      "airportName": {
+        "text": "Falls International Airport",
+        "href": "https://en.wikipedia.org/wiki/Falls_International_Airport"
+      }
+    },
+    {
+      "code": "MSP",
+      "city": "Minneapolis",
+      "airportName": {
+        "text": "Minneapolis–St. Paul International Airport",
+        "href": "https://en.wikipedia.org/wiki/Minneapolis%E2%80%93Saint_Paul_International_Airport"
+      }
+    },
+    {
+      "code": "RST",
+      "city": "Rochester",
+      "airportName": {
+        "text": "Rochester International Airport",
+        "href": "https://en.wikipedia.org/wiki/Rochester_International_Airport"
+      }
+    },
+    {
+      "code": "STC",
+      "city": "St. Cloud",
+      "airportName": {
+        "text": "St. Cloud Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/St._Cloud_Regional_Airport"
+      }
+    },
+    {
+      "code": "JAN",
+      "city": "Jackson",
+      "airportName": {
+        "text": "Jackson–Evers International Airport",
+        "href": "https://en.wikipedia.org/wiki/Jackson%E2%80%93Evers_International_Airport"
+      }
+    },
+    {
+      "code": "COU",
+      "city": "Columbia",
+      "airportName": {
+        "text": "Columbia Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Columbia_Regional_Airport"
+      }
+    },
+    {
+      "code": "JLN",
+      "city": "Joplin",
+      "airportName": {
+        "text": "Joplin Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Joplin_Regional_Airport"
+      }
+    },
+    {
+      "code": "MCI",
+      "city": "Kansas City",
+      "airportName": {
+        "text": "Kansas City International Airport",
+        "href": "https://en.wikipedia.org/wiki/Kansas_City_International_Airport"
+      }
+    },
+    {
+      "code": "SGF",
+      "city": "Springfield",
+      "airportName": {
+        "text": "Springfield-Branson National Airport",
+        "href": "https://en.wikipedia.org/wiki/Springfield-Branson_National_Airport"
+      }
+    },
+    {
+      "code": "STL",
+      "city": "St. Louis",
+      "airportName": {
+        "text": "Lambert-St. Louis International Airport",
+        "href": "https://en.wikipedia.org/wiki/Lambert-St._Louis_International_Airport"
+      }
+    },
+    {
+      "code": "BIL",
+      "city": "Billings",
+      "airportName": {
+        "text": "Billings Logan International Airport",
+        "href": "https://en.wikipedia.org/wiki/Billings_Logan_International_Airport"
+      }
+    },
+    {
+      "code": "BZN",
+      "city": "Bozeman",
+      "airportName": {
+        "text": "Bozeman Yellowstone International Airport",
+        "href": "https://en.wikipedia.org/wiki/Bozeman_Yellowstone_International_Airport"
+      }
+    },
+    {
+      "code": "BTM",
+      "city": "Butte",
+      "airportName": {
+        "text": "Bert Mooney Airport",
+        "href": "https://en.wikipedia.org/wiki/Bert_Mooney_Airport"
+      }
+    },
+    {
+      "code": "GTF",
+      "city": "Great Falls",
+      "airportName": {
+        "text": "Great Falls International Airport",
+        "href": "https://en.wikipedia.org/wiki/Great_Falls_International_Airport"
+      }
+    },
+    {
+      "code": "HLN",
+      "city": "Helena",
+      "airportName": {
+        "text": "Helena Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Helena_Regional_Airport"
+      }
+    },
+    {
+      "code": "GPI",
+      "city": "Kalispell",
+      "airportName": {
+        "text": "Glacier Park International Airport",
+        "href": "https://en.wikipedia.org/wiki/Glacier_Park_International_Airport"
+      }
+    },
+    {
+      "code": "MSO",
+      "city": "Missoula",
+      "airportName": {
+        "text": "Missoula International Airport",
+        "href": "https://en.wikipedia.org/wiki/Missoula_International_Airport"
+      }
+    },
+    {
+      "code": "BWI",
+      "city": [
+        "Baltimore",
+        "Glen Burnie"
+      ],
+      "airportName": {
+        "text": "Baltimore/Washington International Thurgood Marshall Airport",
+        "href": "https://en.wikipedia.org/wiki/Baltimore/Washington_International_Thurgood_Marshall_Airport"
+      }
+    },
+    {
+      "code": "GRI",
+      "city": "Grand Island",
+      "airportName": {
+        "text": "Central Nebraska Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Central_Nebraska_Regional_Airport"
+      }
+    },
+    {
+      "code": "EAR",
+      "city": "Kearney",
+      "airportName": {
+        "text": "Kearney Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Kearney_Regional_Airport"
+      }
+    },
+    {
+      "code": "LNK",
+      "city": "Lincoln",
+      "airportName": {
+        "text": "Lincoln Airport",
+        "href": "https://en.wikipedia.org/wiki/Lincoln_Airport_(Nebraska)"
+      }
+    },
+    {
+      "code": "OMA",
+      "city": "Omaha",
+      "airportName": {
+        "text": "Eppley Airfield",
+        "href": "https://en.wikipedia.org/wiki/Eppley_Airfield"
+      }
+    },
+    {
+      "code": "BFF",
+      "city": "Scottsbluff",
+      "airportName": {
+        "text": "Western Nebraska Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Western_Nebraska_Regional_Airport"
+      }
+    },
+    {
+      "code": "BVU",
+      "city": "Boulder City",
+      "airportName": {
+        "text": "Boulder City Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Boulder_City_Municipal_Airport"
+      }
+    },
+    {
+      "code": "EKO",
+      "city": "Elko",
+      "airportName": {
+        "text": "Elko Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Elko_Regional_Airport"
+      }
+    },
+    {
+      "code": "LAS",
+      "city": "Las Vegas",
+      "airportName": {
+        "text": "McCarran International Airport",
+        "href": "https://en.wikipedia.org/wiki/McCarran_International_Airport"
+      }
+    },
+    {
+      "code": "RNO",
+      "city": "Reno",
+      "airportName": {
+        "text": "Reno/Tahoe International Airport",
+        "href": "https://en.wikipedia.org/wiki/Reno-Tahoe_International_Airport"
+      }
+    },
+    {
+      "code": "LEB",
+      "city": "Lebanon",
+      "airportName": {
+        "text": "Lebanon Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Lebanon_Municipal_Airport_(New_Hampshire)"
+      }
+    },
+    {
+      "code": "MHT",
+      "city": "Manchester",
+      "airportName": {
+        "text": "Manchester–Boston Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Manchester%E2%80%93Boston_Regional_Airport"
+      }
+    },
+    {
+      "code": "ACY",
+      "city": "Atlantic City",
+      "airportName": {
+        "text": "Atlantic City International Airport",
+        "href": "https://en.wikipedia.org/wiki/Atlantic_City_International_Airport"
+      }
+    },
+    {
+      "code": "TTN",
+      "city": "Trenton",
+      "airportName": {
+        "text": "Trenton Mercer Airport",
+        "href": "https://en.wikipedia.org/wiki/Trenton%E2%80%93Mercer_Airport"
+      }
+    },
+    {
+      "code": "EWR",
+      "city": "Newark",
+      "airportName": {
+        "text": "Newark Liberty International Airport",
+        "href": "https://en.wikipedia.org/wiki/Newark_Liberty_International_Airport"
+      }
+    },
+    {
+      "code": "ABQ",
+      "city": "Albuquerque",
+      "airportName": {
+        "text": "Albuquerque International Sunport",
+        "href": "https://en.wikipedia.org/wiki/Albuquerque_International_Sunport"
+      }
+    },
+    {
+      "code": "FMN",
+      "city": "Farmington",
+      "airportName": {
+        "text": "Four Corners Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Four_Corners_Regional_Airport"
+      }
+    },
+    {
+      "code": "DTW",
+      "city": [
+        "Detroit",
+        "Romulus"
+      ],
+      "airportName": {
+        "text": "Detroit Metropolitan Wayne County Airport",
+        "href": "https://en.wikipedia.org/wiki/Detroit_Metropolitan_Wayne_County_Airport"
+      }
+    },
+    {
+      "code": "HOB",
+      "city": "Hobbs",
+      "airportName": {
+        "text": "Lea County Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Lea_County_Regional_Airport"
+      }
+    },
+    {
+      "code": "ROW",
+      "city": "Roswell",
+      "airportName": {
+        "text": "Roswell International Air Center",
+        "href": "https://en.wikipedia.org/wiki/Roswell_International_Air_Center"
+      }
+    },
+    {
+      "code": "SAF",
+      "city": "Santa Fe",
+      "airportName": {
+        "text": "Santa Fe Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Santa_Fe_Municipal_Airport"
+      }
+    },
+    {
+      "code": "ALB",
+      "city": "Albany",
+      "airportName": {
+        "text": "Albany International Airport",
+        "href": "https://en.wikipedia.org/wiki/Albany_International_Airport"
+      }
+    },
+    {
+      "code": "BGM",
+      "city": "Binghamton",
+      "airportName": {
+        "text": "Greater Binghamton Airport",
+        "href": "https://en.wikipedia.org/wiki/Greater_Binghamton_Airport"
+      }
+    },
+    {
+      "code": "CMX",
+      "city": [
+        "Hancock",
+        "Calumet"
+      ],
+      "airportName": {
+        "text": "Houghton County Memorial Airport",
+        "href": "https://en.wikipedia.org/wiki/Houghton_County_Memorial_Airport"
+      }
+    },
+    {
+      "code": "BUF",
+      "city": "Buffalo",
+      "airportName": {
+        "text": "Buffalo Niagara International Airport",
+        "href": "https://en.wikipedia.org/wiki/Buffalo_Niagara_International_Airport"
+      }
+    },
+    {
+      "code": "IMT",
+      "city": [
+        "Iron Mountain",
+        "Kingsford"
+      ],
+      "airportName": {
+        "text": "Ford Airport",
+        "href": "https://en.wikipedia.org/wiki/Ford_Airport_(Iron_Mountain)"
+      }
+    },
+    {
+      "code": "ISP",
+      "city": "Islip",
+      "airportName": {
+        "text": "Long Island MacArthur Airport",
+        "href": "https://en.wikipedia.org/wiki/Long_Island_MacArthur_Airport"
+      }
+    },
+    {
+      "code": "ITH",
+      "city": "Ithaca",
+      "airportName": {
+        "text": "Ithaca Tompkins Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Ithaca_Tompkins_Regional_Airport"
+      }
+    },
+    {
+      "code": "AZO",
+      "city": [
+        "Kalamazoo",
+        "Battle Creek"
+      ],
+      "airportName": {
+        "text": "Kalamazoo/Battle Creek International Airport",
+        "href": "https://en.wikipedia.org/wiki/Kalamazoo/Battle_Creek_International_Airport"
+      }
+    },
+    {
+      "code": "JFK",
+      "city": "New York",
+      "airportName": {
+        "text": "John F. Kennedy International Airport",
+        "href": "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport"
+      }
+    },
+    {
+      "code": "ENV",
+      "city": "Wendover",
+      "airportName": {
+        "text": "Wendover Airport",
+        "href": "https://en.wikipedia.org/wiki/Wendover_Airport"
+      }
+    },
+    {
+      "code": "LGA",
+      "city": "New York",
+      "airportName": {
+        "text": "LaGuardia Airport",
+        "href": "https://en.wikipedia.org/wiki/LaGuardia_Airport"
+      }
+    },
+    {
+      "code": "SWF",
+      "city": "Newburgh",
+      "airportName": {
+        "text": "Stewart International Airport",
+        "href": "https://en.wikipedia.org/wiki/Stewart_International_Airport"
+      }
+    },
+    {
+      "code": "SAW",
+      "city": [
+        "Marquette",
+        "Gwinn"
+      ],
+      "airportName": {
+        "text": "Sawyer International Airport",
+        "href": "https://en.wikipedia.org/wiki/Sawyer_International_Airport"
+      }
+    },
+    {
+      "code": "IAG",
+      "city": "Niagara Falls",
+      "airportName": {
+        "text": "Niagara Falls International Airport",
+        "href": "https://en.wikipedia.org/wiki/Niagara_Falls_International_Airport"
+      }
+    },
+    {
+      "code": "PBG",
+      "city": "Plattsburgh",
+      "airportName": {
+        "text": "Plattsburgh International Airport",
+        "href": "https://en.wikipedia.org/wiki/Plattsburgh_International_Airport"
+      }
+    },
+    {
+      "code": "ROC",
+      "city": "Rochester",
+      "airportName": {
+        "text": "Greater Rochester International Airport",
+        "href": "https://en.wikipedia.org/wiki/Greater_Rochester_International_Airport"
+      }
+    },
+    {
+      "code": "SYR",
+      "city": "Syracuse",
+      "airportName": {
+        "text": "Syracuse Hancock International Airport",
+        "href": "https://en.wikipedia.org/wiki/Syracuse_Hancock_International_Airport"
+      }
+    },
+    {
+      "code": "ART",
+      "city": "Watertown",
+      "airportName": {
+        "text": "Watertown International Airport",
+        "href": "https://en.wikipedia.org/wiki/Watertown_International_Airport"
+      }
+    },
+    {
+      "code": "HPN",
+      "city": "White Plains",
+      "airportName": {
+        "text": "Westchester County Airport",
+        "href": "https://en.wikipedia.org/wiki/Westchester_County_Airport"
+      }
+    },
+    {
+      "code": "AVL",
+      "city": "Asheville",
+      "airportName": {
+        "text": "Asheville Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Asheville_Regional_Airport"
+      }
+    },
+    {
+      "code": "CLT",
+      "city": "Charlotte",
+      "airportName": {
+        "text": "Charlotte/Douglas International Airport",
+        "href": "https://en.wikipedia.org/wiki/Charlotte/Douglas_International_Airport"
+      }
+    },
+    {
+      "code": "FAY",
+      "city": "Fayetteville",
+      "airportName": {
+        "text": "Fayetteville Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Fayetteville_Regional_Airport"
+      }
+    },
+    {
+      "code": "GSO",
+      "city": "Greensboro",
+      "airportName": {
+        "text": "Piedmont Triad International Airport",
+        "href": "https://en.wikipedia.org/wiki/Piedmont_Triad_International_Airport"
+      }
+    },
+    {
+      "code": "PGV",
+      "city": "Greenville",
+      "airportName": {
+        "text": "Pitt-Greenville Airport",
+        "href": "https://en.wikipedia.org/wiki/Pitt-Greenville_Airport"
+      }
+    },
+    {
+      "code": "OAJ",
+      "city": "Jacksonville",
+      "airportName": {
+        "text": "Albert J. Ellis Airport",
+        "href": "https://en.wikipedia.org/wiki/Albert_J._Ellis_Airport"
+      }
+    },
+    {
+      "code": "EWN",
+      "city": "New Bern",
+      "airportName": {
+        "text": "Coastal Carolina Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Coastal_Carolina_Regional_Airport"
+      }
+    },
+    {
+      "code": "RDU",
+      "city": "Raleigh",
+      "airportName": {
+        "text": "Raleigh-Durham International Airport",
+        "href": "https://en.wikipedia.org/wiki/Raleigh-Durham_International_Airport"
+      }
+    },
+    {
+      "code": "ILM",
+      "city": "Wilmington",
+      "airportName": {
+        "text": "Wilmington International Airport",
+        "href": "https://en.wikipedia.org/wiki/Wilmington_International_Airport"
+      }
+    },
+    {
+      "code": "BIS",
+      "city": "Bismarck",
+      "airportName": {
+        "text": "Bismarck Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Bismarck_Municipal_Airport"
+      }
+    },
+    {
+      "code": "DIK",
+      "city": "Dickinson",
+      "airportName": {
+        "text": "Dickinson Theodore Roosevelt Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Dickinson_Theodore_Roosevelt_Regional_Airport"
+      }
+    },
+    {
+      "code": "FAR",
+      "city": "Fargo",
+      "airportName": {
+        "text": "Hector International Airport",
+        "href": "https://en.wikipedia.org/wiki/Hector_International_Airport"
+      }
+    },
+    {
+      "code": "GFK",
+      "city": "Grand Forks",
+      "airportName": {
+        "text": "Grand Forks International Airport",
+        "href": "https://en.wikipedia.org/wiki/Grand_Forks_International_Airport"
+      }
+    },
+    {
+      "code": "MOT",
+      "city": "Minot",
+      "airportName": {
+        "text": "Minot International Airport",
+        "href": "https://en.wikipedia.org/wiki/Minot_International_Airport"
+      }
+    },
+    {
+      "code": "ISN",
+      "city": "Williston",
+      "airportName": {
+        "text": "Sloulin Field International Airport",
+        "href": "https://en.wikipedia.org/wiki/Sloulin_Field_International_Airport"
+      }
+    },
+    {
+      "code": "CLE",
+      "city": "Cleveland",
+      "airportName": {
+        "text": "Cleveland-Hopkins International Airport",
+        "href": "https://en.wikipedia.org/wiki/Cleveland-Hopkins_International_Airport"
+      }
+    },
+    {
+      "code": "GPT",
+      "city": [
+        "Gulfport",
+        "Biloxi"
+      ],
+      "airportName": {
+        "text": "Gulfport–Biloxi International Airport",
+        "href": "https://en.wikipedia.org/wiki/Gulfport%E2%80%93Biloxi_International_Airport"
+      }
+    },
+    {
+      "code": "CMH",
+      "city": "Columbus",
+      "airportName": {
+        "text": "Port Columbus International Airport",
+        "href": "https://en.wikipedia.org/wiki/Port_Columbus_International_Airport"
+      }
+    },
+    {
+      "code": "LCK",
+      "city": "Columbus",
+      "airportName": {
+        "text": "Rickenbacker International Airport",
+        "href": "https://en.wikipedia.org/wiki/Rickenbacker_International_Airport"
+      }
+    },
+    {
+      "code": "PIB",
+      "city": [
+        "Hattiesburg",
+        "Laurel"
+      ],
+      "airportName": {
+        "text": "Hattiesburg–Laurel Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Hattiesburg%E2%80%93Laurel_Regional_Airport"
+      }
+    },
+    {
+      "code": "DAY",
+      "city": "Dayton",
+      "airportName": {
+        "text": "James M. Cox Dayton International Airport",
+        "href": "https://en.wikipedia.org/wiki/Dayton_International_Airport"
+      }
+    },
+    {
+      "code": "TOL",
+      "city": "Toledo",
+      "airportName": {
+        "text": "Toledo Express Airport",
+        "href": "https://en.wikipedia.org/wiki/Toledo_Express_Airport"
+      }
+    },
+    {
+      "code": "LAW",
+      "city": "Lawton",
+      "airportName": {
+        "text": "Lawton–Fort Sill Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Lawton%E2%80%93Fort_Sill_Regional_Airport"
+      }
+    },
+    {
+      "code": "OKC",
+      "city": "Oklahoma City",
+      "airportName": {
+        "text": "Will Rogers World Airport",
+        "href": "https://en.wikipedia.org/wiki/Will_Rogers_World_Airport"
+      }
+    },
+    {
+      "code": "TUL",
+      "city": "Tulsa",
+      "airportName": {
+        "text": "Tulsa International Airport",
+        "href": "https://en.wikipedia.org/wiki/Tulsa_International_Airport"
+      }
+    },
+    {
+      "code": "EUG",
+      "city": "Eugene",
+      "airportName": {
+        "text": "Eugene Airport",
+        "href": "https://en.wikipedia.org/wiki/Eugene_Airport"
+      }
+    },
+    {
+      "code": "LMT",
+      "city": "Klamath Falls",
+      "airportName": {
+        "text": "Klamath Falls Airport",
+        "href": "https://en.wikipedia.org/wiki/Klamath_Falls_Airport"
+      }
+    },
+    {
+      "code": "MFR",
+      "city": "Medford",
+      "airportName": {
+        "text": "Rogue Valley International-Medford Airport",
+        "href": "https://en.wikipedia.org/wiki/Rogue_Valley_International-Medford_Airport"
+      }
+    },
+    {
+      "code": "OTH",
+      "city": "North Bend",
+      "airportName": {
+        "text": "Southwest Oregon Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Southwest_Oregon_Regional_Airport"
+      }
+    },
+    {
+      "code": "PDX",
+      "city": "Portland",
+      "airportName": {
+        "text": "Portland International Airport",
+        "href": "https://en.wikipedia.org/wiki/Portland_International_Airport"
+      }
+    },
+    {
+      "code": "RDM",
+      "city": "Redmond",
+      "airportName": {
+        "text": "Redmond Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Roberts_Field_Airport"
+      }
+    },
+    {
+      "code": "ABE",
+      "city": "Allentown",
+      "airportName": {
+        "text": "Lehigh Valley International Airport",
+        "href": "https://en.wikipedia.org/wiki/Lehigh_Valley_International_Airport"
+      }
+    },
+    {
+      "code": "ERI",
+      "city": "Erie",
+      "airportName": {
+        "text": "Erie International Airport",
+        "href": "https://en.wikipedia.org/wiki/Erie_International_Airport"
+      }
+    },
+    {
+      "code": "LBE",
+      "city": "Latrobe",
+      "airportName": {
+        "text": "Arnold Palmer Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Arnold_Palmer_Regional_Airport"
+      }
+    },
+    {
+      "code": "PHL",
+      "city": "Philadelphia",
+      "airportName": {
+        "text": "Philadelphia International Airport",
+        "href": "https://en.wikipedia.org/wiki/Philadelphia_International_Airport"
+      }
+    },
+    {
+      "code": "PIT",
+      "city": "Pittsburgh",
+      "airportName": {
+        "text": "Pittsburgh International Airport",
+        "href": "https://en.wikipedia.org/wiki/Pittsburgh_International_Airport"
+      }
+    },
+    {
+      "code": "UNV",
+      "city": "State College",
+      "airportName": {
+        "text": "University Park Airport",
+        "href": "https://en.wikipedia.org/wiki/University_Park_Airport"
+      }
+    },
+    {
+      "code": "IPT",
+      "city": "Williamsport",
+      "airportName": {
+        "text": "Williamsport Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Williamsport_Regional_Airport"
+      }
+    },
+    {
+      "code": "WST",
+      "city": "Westerly",
+      "airportName": {
+        "text": "Westerly State Airport",
+        "href": "https://en.wikipedia.org/wiki/Westerly_State_Airport"
+      }
+    },
+    {
+      "code": "CHS",
+      "city": "Charleston",
+      "airportName": {
+        "text": "Charleston International Airport",
+        "href": "https://en.wikipedia.org/wiki/Charleston_International_Airport"
+      }
+    },
+    {
+      "code": "CAE",
+      "city": "Columbia",
+      "airportName": {
+        "text": "Columbia Metropolitan Airport",
+        "href": "https://en.wikipedia.org/wiki/Columbia_Metropolitan_Airport"
+      }
+    },
+    {
+      "code": "FLO",
+      "city": "Florence",
+      "airportName": {
+        "text": "Florence Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Florence_Regional_Airport"
+      }
+    },
+    {
+      "code": "GSP",
+      "city": "Greer",
+      "airportName": {
+        "text": "Greenville-Spartanburg International Airport",
+        "href": "https://en.wikipedia.org/wiki/Greenville-Spartanburg_International_Airport"
+      }
+    },
+    {
+      "code": "HXD",
+      "city": "Hilton Head Island",
+      "airportName": {
+        "text": "Hilton Head Airport",
+        "href": "https://en.wikipedia.org/wiki/Hilton_Head_Airport"
+      }
+    },
+    {
+      "code": "MYR",
+      "city": "Myrtle Beach",
+      "airportName": {
+        "text": "Myrtle Beach International Airport",
+        "href": "https://en.wikipedia.org/wiki/Myrtle_Beach_International_Airport"
+      }
+    },
+    {
+      "code": "ABR",
+      "city": "Aberdeen",
+      "airportName": {
+        "text": "Aberdeen Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Aberdeen_Regional_Airport"
+      }
+    },
+    {
+      "code": "PIR",
+      "city": "Pierre",
+      "airportName": {
+        "text": "Pierre Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Pierre_Regional_Airport"
+      }
+    },
+    {
+      "code": "RAP",
+      "city": "Rapid City",
+      "airportName": {
+        "text": "Rapid City Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Rapid_City_Regional_Airport"
+      }
+    },
+    {
+      "code": "FSD",
+      "city": "Sioux Falls",
+      "airportName": {
+        "text": "Sioux Falls Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Sioux_Falls_Regional_Airport"
+      }
+    },
+    {
+      "code": "CHA",
+      "city": "Chattanooga",
+      "airportName": {
+        "text": "Chattanooga Metropolitan Airport",
+        "href": "https://en.wikipedia.org/wiki/Chattanooga_Metropolitan_Airport"
+      }
+    },
+    {
+      "code": "TYS",
+      "city": "Knoxville",
+      "airportName": {
+        "text": "McGhee Tyson Airport",
+        "href": "https://en.wikipedia.org/wiki/McGhee_Tyson_Airport"
+      }
+    },
+    {
+      "code": "MEM",
+      "city": "Memphis",
+      "airportName": {
+        "text": "Memphis International Airport",
+        "href": "https://en.wikipedia.org/wiki/Memphis_International_Airport"
+      }
+    },
+    {
+      "code": "BNA",
+      "city": "Nashville",
+      "airportName": {
+        "text": "Nashville International Airport",
+        "href": "https://en.wikipedia.org/wiki/Nashville_International_Airport"
+      }
+    },
+    {
+      "code": "ABI",
+      "city": "Abilene",
+      "airportName": {
+        "text": "Abilene Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Abilene_Regional_Airport"
+      }
+    },
+    {
+      "code": "AMA",
+      "city": "Amarillo",
+      "airportName": {
+        "text": "Rick Husband Amarillo International Airport",
+        "href": "https://en.wikipedia.org/wiki/Rick_Husband_Amarillo_International_Airport"
+      }
+    },
+    {
+      "code": "AUS",
+      "city": "Austin",
+      "airportName": {
+        "text": "Austin-Bergstrom International Airport",
+        "href": "https://en.wikipedia.org/wiki/Austin-Bergstrom_International_Airport"
+      }
+    },
+    {
+      "code": "BRO",
+      "city": "Brownsville",
+      "airportName": {
+        "text": "Brownsville/South Padre Island International Airport",
+        "href": "https://en.wikipedia.org/wiki/Brownsville/South_Padre_Island_International_Airport"
+      }
+    },
+    {
+      "code": "CLL",
+      "city": "College Station",
+      "airportName": {
+        "text": "Easterwood Airport",
+        "href": "https://en.wikipedia.org/wiki/Easterwood_Airport"
+      }
+    },
+    {
+      "code": "DAL",
+      "city": "Dallas",
+      "airportName": {
+        "text": "Dallas Love Field",
+        "href": "https://en.wikipedia.org/wiki/Dallas_Love_Field"
+      }
+    },
+    {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "airportName": {
+        "text": "Dallas/Fort Worth International Airport",
+        "href": "https://en.wikipedia.org/wiki/Dallas/Fort_Worth_International_Airport"
+      }
+    },
+    {
+      "code": "DRT",
+      "city": "Del Rio",
+      "airportName": {
+        "text": "Del Rio International Airport",
+        "href": "https://en.wikipedia.org/wiki/Del_Rio_International_Airport"
+      }
+    },
+    {
+      "code": "ELM",
+      "city": [
+        "Elmira",
+        "Corning"
+      ],
+      "airportName": {
+        "text": "Elmira/Corning Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Elmira/Corning_Regional_Airport"
+      }
+    },
+    {
+      "code": "ELP",
+      "city": "El Paso",
+      "airportName": {
+        "text": "El Paso International Airport",
+        "href": "https://en.wikipedia.org/wiki/El_Paso_International_Airport"
+      }
+    },
+    {
+      "code": "HRL",
+      "city": "Harlingen",
+      "airportName": {
+        "text": "Valley International Airport",
+        "href": "https://en.wikipedia.org/wiki/Valley_International_Airport"
+      }
+    },
+    {
+      "code": "IAH",
+      "city": "Houston",
+      "airportName": {
+        "text": "George Bush Intercontinental Airport",
+        "href": "https://en.wikipedia.org/wiki/George_Bush_Intercontinental_Airport"
+      }
+    },
+    {
+      "code": "HOU",
+      "city": "Houston",
+      "airportName": {
+        "text": "William P. Hobby Airport",
+        "href": "https://en.wikipedia.org/wiki/William_P._Hobby_Airport"
+      }
+    },
+    {
+      "code": "LRD",
+      "city": "Laredo",
+      "airportName": {
+        "text": "Laredo International Airport",
+        "href": "https://en.wikipedia.org/wiki/Laredo_International_Airport"
+      }
+    },
+    {
+      "code": "GGG",
+      "city": "Longview",
+      "airportName": {
+        "text": "East Texas Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/East_Texas_Regional_Airport"
+      }
+    },
+    {
+      "code": "LBB",
+      "city": "Lubbock",
+      "airportName": {
+        "text": "Lubbock Preston Smith International Airport",
+        "href": "https://en.wikipedia.org/wiki/Lubbock_Preston_Smith_International_Airport"
+      }
+    },
+    {
+      "code": "MFE",
+      "city": "McAllen",
+      "airportName": {
+        "text": "McAllen-Miller International Airport",
+        "href": "https://en.wikipedia.org/wiki/McAllen-Miller_International_Airport"
+      }
+    },
+    {
+      "code": "MAF",
+      "city": "Midland",
+      "airportName": {
+        "text": "Midland International Airport",
+        "href": "https://en.wikipedia.org/wiki/Midland_International_Airport"
+      }
+    },
+    {
+      "code": "GTR",
+      "city": [
+        "Columbus",
+        "West Point",
+        "Starkville"
+      ],
+      "airportName": {
+        "text": "Golden Triangle Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Golden_Triangle_Regional_Airport"
+      }
+    },
+    {
+      "code": "SJT",
+      "city": "San Angelo",
+      "airportName": {
+        "text": "San Angelo Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/San_Angelo_Regional_Airport"
+      }
+    },
+    {
+      "code": "SAT",
+      "city": "San Antonio",
+      "airportName": {
+        "text": "San Antonio International Airport",
+        "href": "https://en.wikipedia.org/wiki/San_Antonio_International_Airport"
+      }
+    },
+    {
+      "code": "TYR",
+      "city": "Tyler",
+      "airportName": {
+        "text": "Tyler Pounds Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Tyler_Pounds_Regional_Airport"
+      }
+    },
+    {
+      "code": "ACT",
+      "city": "Waco",
+      "airportName": {
+        "text": "Waco Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Waco_Regional_Airport"
+      }
+    },
+    {
+      "code": "SPS",
+      "city": "Wichita Falls",
+      "airportName": {
+        "text": "Wichita Falls Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Wichita_Falls_Municipal_Airport"
+      }
+    },
+    {
+      "code": "PVU",
+      "city": "Provo",
+      "airportName": {
+        "text": "Provo Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Provo_Municipal_Airport"
+      }
+    },
+    {
+      "code": "SLC",
+      "city": "Salt Lake City",
+      "airportName": {
+        "text": "Salt Lake City International Airport",
+        "href": "https://en.wikipedia.org/wiki/Salt_Lake_City_International_Airport"
+      }
+    },
+    {
+      "code": "BTV",
+      "city": "Burlington",
+      "airportName": {
+        "text": "Burlington International Airport",
+        "href": "https://en.wikipedia.org/wiki/Burlington_International_Airport"
+      }
+    },
+    {
+      "code": "CHO",
+      "city": "Charlottesville",
+      "airportName": {
+        "text": "Charlottesville–Albemarle Airport",
+        "href": "https://en.wikipedia.org/wiki/Charlottesville%E2%80%93Albemarle_Airport"
+      }
+    },
+    {
+      "code": "LYH",
+      "city": "Lynchburg",
+      "airportName": {
+        "text": "Lynchburg Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Lynchburg_Regional_Airport"
+      }
+    },
+    {
+      "code": "PHF",
+      "city": "Newport News",
+      "airportName": {
+        "text": "Newport News/Williamsburg International Airport",
+        "href": "https://en.wikipedia.org/wiki/Newport_News/Williamsburg_International_Airport"
+      }
+    },
+    {
+      "code": "ORF",
+      "city": "Norfolk",
+      "airportName": {
+        "text": "Norfolk International Airport",
+        "href": "https://en.wikipedia.org/wiki/Norfolk_International_Airport"
+      }
+    },
+    {
+      "code": "RIC",
+      "city": "Richmond",
+      "airportName": {
+        "text": "Richmond International Airport",
+        "href": "https://en.wikipedia.org/wiki/Richmond_International_Airport"
+      }
+    },
+    {
+      "code": "ROA",
+      "city": "Roanoke",
+      "airportName": {
+        "text": "Roanoke Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Roanoke_Regional_Airport"
+      }
+    },
+    {
+      "code": "BLI",
+      "city": "Bellingham",
+      "airportName": {
+        "text": "Bellingham International Airport",
+        "href": "https://en.wikipedia.org/wiki/Bellingham_International_Airport"
+      }
+    },
+    {
+      "code": "FHR",
+      "city": "Friday Harbor",
+      "airportName": {
+        "text": "Friday Harbor Airport",
+        "href": "https://en.wikipedia.org/wiki/Friday_Harbor_Airport"
+      }
+    },
+    {
+      "code": "PSC",
+      "city": "Pasco",
+      "airportName": {
+        "text": "Tri-Cities Airport",
+        "href": "https://en.wikipedia.org/wiki/Tri-Cities_Airport_(Washington)"
+      }
+    },
+    {
+      "code": "CLM",
+      "city": "Port Angeles",
+      "airportName": {
+        "text": "William R. Fairchild International Airport",
+        "href": "https://en.wikipedia.org/wiki/William_R._Fairchild_International_Airport"
+      }
+    },
+    {
+      "code": "BFI",
+      "city": "Seattle",
+      "airportName": {
+        "text": "King County International Airport",
+        "href": "https://en.wikipedia.org/wiki/Boeing_Field"
+      }
+    },
+    {
+      "code": "CAK",
+      "city": [
+        "Akron",
+        "Canton"
+      ],
+      "airportName": {
+        "text": "Akron-Canton Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Akron-Canton_Regional_Airport"
+      }
+    },
+    {
+      "code": "GEG",
+      "city": "Spokane",
+      "airportName": {
+        "text": "Spokane International Airport",
+        "href": "https://en.wikipedia.org/wiki/Spokane_International_Airport"
+      }
+    },
+    {
+      "code": "ALW",
+      "city": "Walla Walla",
+      "airportName": {
+        "text": "Walla Walla Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Walla_Walla_Regional_Airport"
+      }
+    },
+    {
+      "code": "EAT",
+      "city": "Wenatchee",
+      "airportName": {
+        "text": "Pangborn Memorial Airport",
+        "href": "https://en.wikipedia.org/wiki/Pangborn_Memorial_Airport"
+      }
+    },
+    {
+      "code": "YKM",
+      "city": "Yakima",
+      "airportName": {
+        "text": "Yakima Air Terminal",
+        "href": "https://en.wikipedia.org/wiki/Yakima_Air_Terminal"
+      }
+    },
+    {
+      "code": "CRW",
+      "city": "Charleston",
+      "airportName": {
+        "text": "Yeager Airport",
+        "href": "https://en.wikipedia.org/wiki/Yeager_Airport"
+      }
+    },
+    {
+      "code": "CKB",
+      "city": "Clarksburg",
+      "airportName": {
+        "text": "North Central West Virginia Airport",
+        "href": "https://en.wikipedia.org/wiki/North_Central_West_Virginia_Airport"
+      }
+    },
+    {
+      "code": "HTS",
+      "city": "Huntington",
+      "airportName": {
+        "text": "Tri-State Airport",
+        "href": "https://en.wikipedia.org/wiki/Tri-State_Airport"
+      }
+    },
+    {
+      "code": "YNG",
+      "city": [
+        "Youngstown",
+        "Warren"
+      ],
+      "airportName": {
+        "text": "Youngstown-Warren Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Youngstown-Warren_Regional_Airport"
+      }
+    },
+    {
+      "code": "LWB",
+      "city": "Lewisburg",
+      "airportName": {
+        "text": "Greenbrier Valley Airport",
+        "href": "https://en.wikipedia.org/wiki/Greenbrier_Valley_Airport"
+      }
+    },
+    {
+      "code": "MGW",
+      "city": "Morgantown",
+      "airportName": {
+        "text": "Morgantown Municipal Airport",
+        "href": "https://en.wikipedia.org/wiki/Morgantown_Municipal_Airport"
+      }
+    },
+    {
+      "code": "ATW",
+      "city": "Appleton",
+      "airportName": {
+        "text": "Outagamie County Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Outagamie_County_Regional_Airport"
+      }
+    },
+    {
+      "code": "EAU",
+      "city": "Eau Claire",
+      "airportName": {
+        "text": "Chippewa Valley Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Chippewa_Valley_Regional_Airport"
+      }
+    },
+    {
+      "code": "GRB",
+      "city": "Green Bay",
+      "airportName": {
+        "text": "Austin Straubel International Airport",
+        "href": "https://en.wikipedia.org/wiki/Austin_Straubel_International_Airport"
+      }
+    },
+    {
+      "code": "LSE",
+      "city": "La Crosse",
+      "airportName": {
+        "text": "La Crosse Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/La_Crosse_Regional_Airport"
+      }
+    },
+    {
+      "code": "MSN",
+      "city": "Madison",
+      "airportName": {
+        "text": "Dane County Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Dane_County_Regional_Airport"
+      }
+    },
+    {
+      "code": "MKE",
+      "city": "Milwaukee",
+      "airportName": {
+        "text": "General Mitchell International Airport",
+        "href": "https://en.wikipedia.org/wiki/General_Mitchell_International_Airport"
+      }
+    },
+    {
+      "code": "CWA",
+      "city": "Wausau",
+      "airportName": {
+        "text": "Central Wisconsin Airport",
+        "href": "https://en.wikipedia.org/wiki/Central_Wisconsin_Airport"
+      }
+    },
+    {
+      "code": "RHI",
+      "city": "Rhinelander",
+      "airportName": {
+        "text": "Rhinelander-Oneida County Airport",
+        "href": "https://en.wikipedia.org/wiki/Rhinelander-Oneida_County_Airport"
+      }
+    },
+    {
+      "code": "CPR",
+      "city": "Casper",
+      "airportName": {
+        "text": "Casper/Natrona County International Airport",
+        "href": "https://en.wikipedia.org/wiki/Casper/Natrona_County_International_Airport"
+      }
+    },
+    {
+      "code": "CYS",
+      "city": "Cheyenne",
+      "airportName": {
+        "text": "Cheyenne Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Cheyenne_Regional_Airport"
+      }
+    },
+    {
+      "code": "COD",
+      "city": "Cody",
+      "airportName": {
+        "text": "Yellowstone Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Yellowstone_Regional_Airport"
+      }
+    },
+    {
+      "code": "GCC",
+      "city": "Gillette",
+      "airportName": {
+        "text": "Gillette-Campbell County Airport",
+        "href": "https://en.wikipedia.org/wiki/Gillette-Campbell_County_Airport"
+      }
+    },
+    {
+      "code": "JAC",
+      "city": "Jackson",
+      "airportName": {
+        "text": "Jackson Hole Airport",
+        "href": "https://en.wikipedia.org/wiki/Jackson_Hole_Airport"
+      }
+    },
+    {
+      "code": "LAR",
+      "city": "Laramie",
+      "airportName": {
+        "text": "Laramie Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Laramie_Regional_Airport"
+      }
+    },
+    {
+      "code": "RIW",
+      "city": "Riverton",
+      "airportName": {
+        "text": "Riverton Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Riverton_Regional_Airport"
+      }
+    },
+    {
+      "code": "RKS",
+      "city": "Rock Springs",
+      "airportName": {
+        "text": "Rock Springs – Sweetwater County Airport",
+        "href": "https://en.wikipedia.org/wiki/Rock_Springs_%E2%80%93_Sweetwater_County_Airport"
+      }
+    },
+    {
+      "code": "MDT",
+      "city": [
+        "Harrisburg",
+        "Middletown"
+      ],
+      "airportName": {
+        "text": "Harrisburg International Airport",
+        "href": "https://en.wikipedia.org/wiki/Harrisburg_International_Airport"
+      }
+    },
+    {
+      "code": "SHR",
+      "city": "Sheridan",
+      "airportName": {
+        "text": "Sheridan County Airport",
+        "href": "https://en.wikipedia.org/wiki/Sheridan_County_Airport"
+      }
+    },
+    {
+      "code": "GRO",
+      "city": "Rota Island",
+      "airportName": {
+        "text": "Rota International Airport",
+        "href": "https://en.wikipedia.org/wiki/Rota_International_Airport"
+      }
+    },
+    {
+      "code": "AVP",
+      "city": [
+        "Wilkes-Barre",
+        "Scranton"
+      ],
+      "airportName": {
+        "text": "Wilkes-Barre/Scranton International Airport",
+        "href": "https://en.wikipedia.org/wiki/Wilkes-Barre/Scranton_International_Airport"
+      }
+    },
+    {
+      "code": "BQN",
+      "city": "Aguadilla",
+      "airportName": {
+        "text": "Rafael Hernández International Airport",
+        "href": "https://en.wikipedia.org/wiki/Rafael_Hern%C3%A1ndez_Airport"
+      }
+    },
+    {
+      "code": "PSE",
+      "city": "Ponce",
+      "airportName": {
+        "text": "Mercedita International Airport",
+        "href": "https://en.wikipedia.org/wiki/Mercedita_Airport"
+      }
+    },
+    {
+      "code": "PVD",
+      "city": [
+        "Providence",
+        "Warwick"
+      ],
+      "airportName": {
+        "text": "Theodore Francis Green State Airport",
+        "href": "https://en.wikipedia.org/wiki/T._F._Green_Airport"
+      }
+    },
+    {
+      "code": "VQS",
+      "city": "Vieques",
+      "airportName": {
+        "text": "Antonio Rivera Rodríguez Airport",
+        "href": "https://en.wikipedia.org/wiki/Antonio_Rivera_Rodr%C3%ADguez_Airport"
+      }
+    },
+    {
+      "code": "BPT",
+      "city": [
+        "Beaumont",
+        "Port Arthur"
+      ],
+      "airportName": {
+        "text": "Jack Brooks Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Jack_Brooks_Regional_Airport"
+      }
+    },
+    {
+      "code": "CRP",
+      "city": [
+        "Corpus Christi",
+        "Kingsville"
+      ],
+      "airportName": {
+        "text": "Corpus Christi International Airport",
+        "href": "https://en.wikipedia.org/wiki/Corpus_Christi_International_Airport"
+      }
+    },
+    {
+      "code": "SGU",
+      "city": [
+        "St. George",
+        "Beaver"
+      ],
+      "airportName": {
+        "text": "St. George Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/St._George_Regional_Airport"
+      }
+    },
+    {
+      "code": "DCA",
+      "city": [
+        "Washington, D.C.",
+        "Arlington County"
+      ],
+      "airportName": {
+        "text": "Ronald Reagan Washington National Airport",
+        "href": "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport"
+      }
+    },
+    {
+      "code": "PUW",
+      "city": [
+        "Pullman",
+        "Moscow, Idaho"
+      ],
+      "airportName": {
+        "text": "Pullman/Moscow Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Pullman-Moscow_Regional_Airport"
+      }
+    },
+    {
+      "code": "TRI",
+      "city": [
+        "Bristol",
+        "Johnson City",
+        "Kingsport"
+      ],
+      "airportName": {
+        "text": "Tri-Cities Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Tri-Cities_Regional_Airport"
+      }
+    },
+    {
+      "code": "PPG",
+      "city": [
+        "Pago Pago",
+        "Tutuila"
+      ],
+      "airportName": {
+        "text": "Pago Pago International Airport",
+        "href": "https://en.wikipedia.org/wiki/Pago_Pago_International_Airport"
+      }
+    },
+    {
+      "code": "GUM",
+      "city": [
+        "Agana",
+        "Tamuning"
+      ],
+      "airportName": {
+        "text": "Antonio B. Won Pat International Airport",
+        "href": "https://en.wikipedia.org/wiki/Antonio_B._Won_Pat_International_Airport"
+      }
+    },
+    {
+      "code": "GSN",
+      "city": [
+        "Obyan",
+        "Saipan Island"
+      ],
+      "airportName": {
+        "text": "Saipan International Airport",
+        "href": "https://en.wikipedia.org/wiki/Saipan_International_Airport"
+      }
+    },
+    {
+      "code": "SJU",
+      "city": [
+        "San Juan",
+        "Carolina"
+      ],
+      "airportName": {
+        "text": "Luis Muñoz Marín International Airport",
+        "href": "https://en.wikipedia.org/wiki/Luis_Mu%C3%B1oz_Mar%C3%ADn_International_Airport"
+      }
+    },
+    {
+      "code": "SIG",
+      "city": [
+        "San Juan",
+        "Miramar"
+      ],
+      "airportName": {
+        "text": "Fernando Luis Ribas Dominicci Airport",
+        "href": "https://en.wikipedia.org/wiki/Fernando_Luis_Ribas_Dominicci_Airport"
+      }
+    },
+    {
+      "code": "STT",
+      "city": [
+        "Charlotte Amalie",
+        "St. Thomas"
+      ],
+      "airportName": {
+        "text": "Cyril E. King Airport",
+        "href": "https://en.wikipedia.org/wiki/Cyril_E._King_Airport"
+      }
+    },
+    {
+      "code": "STX",
+      "city": [
+        "Christiansted",
+        "St. Croix"
+      ],
+      "airportName": {
+        "text": "Henry E. Rohlsen Airport",
+        "href": "https://en.wikipedia.org/wiki/Henry_E._Rohlsen_Airport"
+      }
+    },
+    {
+      "code": "GRK",
+      "city": [
+        "Fort Hood",
+        "Killeen",
+        "Temple"
+      ],
+      "airportName": {
+        "text": "Killeen-Fort Hood Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Killeen-Fort_Hood_Regional_Airport"
+      }
+    },
+    {
+      "code": "SHD",
+      "city": [
+        "Staunton",
+        "Waynesboro",
+        "Harrisonburg"
+      ],
+      "airportName": {
+        "text": "Shenandoah Valley Regional Airport",
+        "href": "https://en.wikipedia.org/wiki/Shenandoah_Valley_Regional_Airport"
+      }
+    },
+    {
+      "code": "IAD",
+      "city": [
+        "Washington, D.C.",
+        "Dulles",
+        "Chantilly"
+      ],
+      "airportName": {
+        "text": "Washington Dulles International Airport",
+        "href": "https://en.wikipedia.org/wiki/Washington_Dulles_International_Airport"
+      }
+    },
+    {
+      "code": "SEA",
+      "city": [
+        "Seattle",
+        "Tacoma",
+        "SeaTac"
+      ],
+      "airportName": {
+        "text": "Seattle–Tacoma International Airport",
+        "href": "https://en.wikipedia.org/wiki/Seattle%E2%80%93Tacoma_International_Airport"
+      }
+    }
+  ]
+}
